@@ -14,3 +14,4 @@ Este projeto tem como desenvolver a base de uma plataforma que permite fazer a g
 5. Deve ser possível definir o tipo de animal que cada setor terá (poderá ser misto)
 6. Os parques nao podem ser mistos.
 7. Como relacionar voluntário e sócio. Um voluntário tem obrigatoriamente de ser sócio. Um sócio pode nao ser voluntário.
+8. static atributo presidente bool.
