@@ -1,0 +1,4 @@
+C:\Users\CARONESE\Documents\IPCA\1.2\LP2\GitHub\TP2_\PetLovers\obj\Debug\TP_LP_4459_6163.csprojAssemblyReference.cache
+C:\Users\CARONESE\Documents\IPCA\1.2\LP2\GitHub\TP2_\PetLovers\obj\Debug\TP_LP_4459_6163.csproj.CoreCompileInputs.cache
+C:\Users\CARONESE\Documents\IPCA\1.2\LP2\GitHub\TP2_\PetLovers\obj\Debug\PetLovers.exe
+C:\Users\CARONESE\Documents\IPCA\1.2\LP2\GitHub\TP2_\PetLovers\obj\Debug\PetLovers.pdb

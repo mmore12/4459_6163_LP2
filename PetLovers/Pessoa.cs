@@ -1,66 +1,61 @@
-﻿/*------------------------------------------------------*
- *----------PETLOVERS - Trabalho Programação II---------*
- *------------------------------------------------------*         
- *----------Autores: Elden Carones e Aurélien Bouça-----*
- *------------------------------------------------------*/
+﻿/*
+*	<copyright file="PetLovers.cs" company="IPCA">
+*		Copyright (c) 2020 All Rights Reserved
+*	</copyright>
+* 	<author>CaronesE</author>
+*   <date>5/17/2020 11:19:12 PM</date>
+*	<description></description>
+**/
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace PetLovers
 {
     /// <summary>
-    /// Classe para gerir pessoas
+    /// Purpose:
+    /// Created by: CaronesE
+    /// Created on: 5/17/2020 11:19:12 PM
     /// </summary>
-    class Pessoa
+    /// <remarks></remarks>
+    /// <example></example>
+    public class Pessoa
     {
-        #region Estado
-        string nome;
-        DateTime idade;
-        string funcao;
+        #region Attributes
+        #endregion
+
+        #region Methods
+
+        #region Constructors
+
+        /// <summary>
+        /// The default Constructor.
+        /// </summary>
+        public Pessoa()
+        {
+        }
+
         #endregion
 
         #region Properties
-        /// <summary>
-        /// Propertie para obter ou colocar nome da pessoa
-        /// </summary>
-        public string Nome
-        {
-            get { return nome; }
-            set { nome = value; }
-        }
+        #endregion
 
-        /// <summary>
-        /// Obter ou colocar idade da pessoa
-        /// </summary>
-        public DateTime Idade
-        {
-            get { return idade; }
-            set { idade = value; }
-        }
+        #region Functions
+        #endregion
 
+        #region Overrides
+        #endregion
+
+        #region Destructor
         /// <summary>
-        /// Obter ou colocar funcao da pessoa
+        /// The destructor.
         /// </summary>
-        public string Funcao
+        ~Pessoa()
         {
-            get { return funcao; }
-            set { funcao = value; }
         }
         #endregion
 
-        #region Constructor
-        /// <summary>
-        /// Construtor para criar uma pessoa com nome, idade e função
-        /// </summary>
-        /// <param name="n">nome pessoa</param>
-        /// <param name="i">idade da pessoa</param>
-        /// <param name="f">funcao da pessoa</param>
-        public Pessoa(string n, DateTime i, string f)
-        {
-            nome = n;
-            idade = i;
-            funcao = f;
-
-        }
         #endregion
     }
 }

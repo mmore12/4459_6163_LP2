@@ -3,7 +3,7 @@
 *		Copyright (c) 2020 All Rights Reserved
 *	</copyright>
 * 	<author>CaronesE</author>
-*   <date>5/17/2020 11:16:51 PM</date>
+*   <date>5/17/2020 11:17:57 PM</date>
 *	<description></description>
 **/
 using System;
@@ -16,11 +16,11 @@ namespace PetLovers
     /// <summary>
     /// Purpose:
     /// Created by: CaronesE
-    /// Created on: 5/17/2020 11:16:51 PM
+    /// Created on: 5/17/2020 11:17:57 PM
     /// </summary>
     /// <remarks></remarks>
     /// <example></example>
-    public class Cao : Animal
+    public class Socio : Pessoa
     {
         #region Attributes
         #endregion
@@ -32,7 +32,7 @@ namespace PetLovers
         /// <summary>
         /// The default Constructor.
         /// </summary>
-        public Cao()
+        public Socio()
         {
         }
 
@@ -51,7 +51,7 @@ namespace PetLovers
         /// <summary>
         /// The destructor.
         /// </summary>
-        ~Cao()
+        ~Socio()
         {
         }
         #endregion
