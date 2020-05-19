@@ -29,6 +29,32 @@ namespace PetLovers
         DateTime data_Nasc;
         #endregion
 
+        #region Methods
+
+        #region Constructors
+
+        /// <summary>
+        /// The default Constructor.
+        /// </summary>
+        public Animal()
+        {
+        }
+        /// <summary>
+        /// Constructor with all elements of animal
+        /// </summary>
+        /// <param name="n">animal name</param>
+        /// <param name="r">animal breed</param>
+        /// <param name="g">animal genre</param>
+        /// <param name="d">animal birth date</param>
+        public Animal(string n, string r, string g, DateTime d)
+        {
+            nome = n;
+            raca = r;
+            genero = g;
+            data_Nasc = d;
+        }
+        #endregion
+
         #region Properties
         /// <summary>
         /// Propertie to manage the animal ID
@@ -70,22 +96,6 @@ namespace PetLovers
             get { return data_Nasc; }
             set { data_Nasc = value; }
         }
-        #endregion
-
-        #region Methods
-
-        #region Constructors
-
-        /// <summary>
-        /// The default Constructor.
-        /// </summary>
-        public Animal()
-        {
-        }
-
-        #endregion
-
-        #region Properties
         #endregion
 
         #region Functions
