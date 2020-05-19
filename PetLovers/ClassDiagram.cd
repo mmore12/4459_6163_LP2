@@ -14,13 +14,6 @@
       <FileName>Cao.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PetLovers.Funcionario" Collapsed="true">
-    <Position X="7.5" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Funcionario.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="PetLovers.Parque" Collapsed="true">
     <Position X="2.75" Y="2" Width="1.5" />
     <TypeIdentifier>
@@ -75,6 +68,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Veterinario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetLovers.Funcionario" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Funcionario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

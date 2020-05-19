@@ -1,45 +1,61 @@
-﻿/*------------------------------------------------------*
- *----------PETLOVERS - Trabalho Programação II---------*
- *------------------------------------------------------*         
- *----------Autores: Elden Carones e Aurélien Bouça-----*
- *------------------------------------------------------*/
+﻿/*
+*	<copyright file="PetLovers.cs" company="IPCA">
+*		Copyright (c) 2020 All Rights Reserved
+*	</copyright>
+* 	<author>CaronesE</author>
+*   <date>5/19/2020 10:11:26 PM</date>
+*	<description></description>
+**/
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace PetLovers
 {
     /// <summary>
-    /// Classe para adicionar funcionarios ao canil, classe filho da classe pessoa
+    /// Purpose:
+    /// Created by: CaronesE
+    /// Created on: 5/19/2020 10:11:26 PM
     /// </summary>
-    class Funcionario : Pessoa
+    /// <remarks></remarks>
+    /// <example></example>
+    public class Funcionario : Pessoa
     {
-        #region Estado
-        DateTime dataAdmissao;
+        #region Attributes
+        #endregion
+
+        #region Methods
+
+        #region Constructors
+
+        /// <summary>
+        /// The default Constructor.
+        /// </summary>
+        public Funcionario()
+        {
+        }
+
         #endregion
 
         #region Properties
+        #endregion
+
+        #region Functions
+        #endregion
+
+        #region Overrides
+        #endregion
+
+        #region Destructor
         /// <summary>
-        /// Manipula o atributo Data de admissao
+        /// The destructor.
         /// </summary>
-        public DateTime DataAdmissao
+        ~Funcionario()
         {
-            get { return dataAdmissao; }
-            set { dataAdmissao = value; }
         }
         #endregion
 
-        #region Constructor
-        /// <summary>
-        /// Criar um funcionario
-        /// </summary>
-        /// <param name="data">data de admissao</param>
-        /// <param name="n">nome do funcionario herdado da classe pessoas</param>
-        /// <param name="i">idade do funcionario herdado da classe pessoas</param>
-        /// <param name="f">funcao do funcionario herdado da classe pessoas</param>
-        public Funcionario (DateTime data, string n, DateTime i, string f) : base(n, i, f)
-        {
-            dataAdmissao = data;
-        }
         #endregion
-
     }
 }
