@@ -53,7 +53,7 @@ namespace PetLovers
         /// <param name="n">nome da vacina</param>
         /// <param name="t">tipo de vacina</param>
         /// <param name="q">quantidade de vacina</param>
-        public Vacinas(string n, string t, int q)
+        public Vacina(string n, string t, int q)
         {
             nome = n;
             tipo = t;

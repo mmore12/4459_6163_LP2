@@ -3,7 +3,7 @@
 *		Copyright (c) 2020 All Rights Reserved
 *	</copyright>
 * 	<author>CaronesE</author>
-*   <date>5/19/2020 10:11:26 PM</date>
+*   <date>5/19/2020 9:54:39 PM</date>
 *	<description></description>
 **/
 using System;
@@ -16,11 +16,11 @@ namespace PetLovers
     /// <summary>
     /// Purpose:
     /// Created by: CaronesE
-    /// Created on: 5/19/2020 10:11:26 PM
+    /// Created on: 5/19/2020 9:54:39 PM
     /// </summary>
     /// <remarks></remarks>
     /// <example></example>
-    public class Funcionario : Pessoa
+    public class ParqueAnimal
     {
         #region Attributes
         #endregion
@@ -32,7 +32,7 @@ namespace PetLovers
         /// <summary>
         /// The default Constructor.
         /// </summary>
-        public Funcionario()
+        public ParqueAnimal()
         {
         }
 
@@ -51,7 +51,7 @@ namespace PetLovers
         /// <summary>
         /// The destructor.
         /// </summary>
-        ~Funcionario()
+        ~ParqueAnimal()
         {
         }
         #endregion

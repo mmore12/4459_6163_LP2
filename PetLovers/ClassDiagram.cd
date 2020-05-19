@@ -14,17 +14,10 @@
       <FileName>Cao.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PetLovers.Funcionario" Collapsed="true">
-    <Position X="7.5" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Funcionario.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="PetLovers.Parque" Collapsed="true">
     <Position X="2.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAA=</HashCode>
       <FileName>Parque.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -49,13 +42,6 @@
       <FileName>Socio.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PetLovers.Veterinario" Collapsed="true">
-    <Position X="8.75" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Veterinario.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="PetLovers.Voluntario" Collapsed="true">
     <Position X="11.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
@@ -75,6 +61,20 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BoletimVacinas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetLovers.Veterinario" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Veterinario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetLovers.Funcionario" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Funcionario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

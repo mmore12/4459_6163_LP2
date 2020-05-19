@@ -23,6 +23,10 @@ namespace PetLovers
     public class Parque
     {
         #region Attributes
+
+        int idParque = 0;
+        string nome;
+        int capacidade;
         #endregion
 
         #region Methods
@@ -34,6 +38,14 @@ namespace PetLovers
         /// </summary>
         public Parque()
         {
+        }
+
+        public Parque(string nome, int capacidade)
+        {
+            this.nome = nome;
+            this.capacidade = capacidade;
+
+            idParque = ++idParque;
         }
 
         #endregion

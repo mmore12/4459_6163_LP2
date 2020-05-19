@@ -1,44 +1,61 @@
-﻿/*------------------------------------------------------*
- *----------PETLOVERS - Trabalho Programação II---------*
- *------------------------------------------------------*         
- *----------Autores: Elden Carones e Aurélien Bouça-----*
- *------------------------------------------------------*/
+﻿/*
+*	<copyright file="PetLovers.cs" company="IPCA">
+*		Copyright (c) 2020 All Rights Reserved
+*	</copyright>
+* 	<author>CaronesE</author>
+*   <date>5/19/2020 10:09:55 PM</date>
+*	<description></description>
+**/
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace PetLovers
 {
     /// <summary>
-    /// Classe para criar um veterinario, classe filho da classe pessoa
+    /// Purpose:
+    /// Created by: CaronesE
+    /// Created on: 5/19/2020 10:09:55 PM
     /// </summary>
-    class Veterinario : Pessoa
+    /// <remarks></remarks>
+    /// <example></example>
+    public class Veterinario : Pessoa
     {
-        #region Estado
-        DateTime dataAdmissao;
+        #region Attributes
+        #endregion
+
+        #region Methods
+
+        #region Constructors
+
+        /// <summary>
+        /// The default Constructor.
+        /// </summary>
+        public Veterinario()
+        {
+        }
+
         #endregion
 
         #region Properties
+        #endregion
+
+        #region Functions
+        #endregion
+
+        #region Overrides
+        #endregion
+
+        #region Destructor
         /// <summary>
-        /// Manipula o atributo Data de admissao
+        /// The destructor.
         /// </summary>
-        public DateTime DataAdmissao
+        ~Veterinario()
         {
-            get { return dataAdmissao; }
-            set { dataAdmissao = value; }
         }
         #endregion
 
-        #region Constructor
-        /// <summary>
-        /// Criar um veterinário
-        /// </summary>
-        /// <param name="data">data admissao</param>
-        /// <param name="n">nome proveniente da classe pessoas</param>
-        /// <param name="i">idade proveniente da classe pessoas</param>
-        /// <param name="f">funcao proveniente da classe pessoas</param>
-        public Veterinario (DateTime data, string n, DateTime i, string f) : base (n,i,f)
-        {
-            dataAdmissao = data;
-        }
         #endregion
     }
 }
