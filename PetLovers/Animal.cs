@@ -1,5 +1,4 @@
-﻿/*
-*	<copyright file="PetLovers.cs" company="IPCA">
+﻿/*	<copyright file="PetLovers.cs" company="IPCA">
 *		Copyright (c) 2020 All Rights Reserved
 *	</copyright>
 * 	<author>CaronesE</author>
