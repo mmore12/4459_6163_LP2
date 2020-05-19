@@ -3,7 +3,7 @@
 *		Copyright (c) 2020 All Rights Reserved
 *	</copyright>
 * 	<author>CaronesE</author>
-*   <date>5/17/2020 11:23:08 PM</date>
+*   <date>5/19/2020 9:54:39 PM</date>
 *	<description></description>
 **/
 using System;
@@ -16,17 +16,13 @@ namespace PetLovers
     /// <summary>
     /// Purpose:
     /// Created by: CaronesE
-    /// Created on: 5/17/2020 11:23:08 PM
+    /// Created on: 5/19/2020 9:54:39 PM
     /// </summary>
     /// <remarks></remarks>
     /// <example></example>
-    public class Parque
+    public class ParqueAnimal
     {
         #region Attributes
-
-        int idParque = 0;
-        string nome;
-        int capacidade;
         #endregion
 
         #region Methods
@@ -36,16 +32,8 @@ namespace PetLovers
         /// <summary>
         /// The default Constructor.
         /// </summary>
-        public Parque()
+        public ParqueAnimal()
         {
-        }
-
-        public Parque(string nome, int capacidade)
-        {
-            this.nome = nome;
-            this.capacidade = capacidade;
-
-            idParque = ++idParque;
         }
 
         #endregion
@@ -63,7 +51,7 @@ namespace PetLovers
         /// <summary>
         /// The destructor.
         /// </summary>
-        ~Parque()
+        ~ParqueAnimal()
         {
         }
         #endregion
