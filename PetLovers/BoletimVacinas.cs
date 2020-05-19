@@ -14,7 +14,7 @@ using System.Text;
 namespace PetLovers
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose: Class to create vaccine card
     /// Created by: CaronesE
     /// Created on: 5/17/2020 11:26:11 PM
     /// </summary>
@@ -23,6 +23,8 @@ namespace PetLovers
     public class BoletimVacinas
     {
         #region Attributes
+        DateTime data_Vacina;
+        int n_ordem;
         #endregion
 
         #region Methods

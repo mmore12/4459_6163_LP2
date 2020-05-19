@@ -15,7 +15,7 @@ using System.Text;
 namespace PetLovers
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose: Class to create an animal
     /// Created by: CaronesE
     /// Created on: 5/17/2020 11:16:04 PM
     /// </summary>
