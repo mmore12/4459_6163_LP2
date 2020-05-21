@@ -1,7 +1,0 @@
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\bin\Debug\PetLovers.exe.config
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\bin\Debug\PetLovers.exe
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\bin\Debug\PetLovers.pdb
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\obj\Debug\PetLovers.csprojAssemblyReference.cache
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\obj\Debug\PetLovers.csproj.CoreCompileInputs.cache
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\obj\Debug\PetLovers.exe
-C:\Users\BOUCAA\Documents\Visual Studio 2019\PetLovers\PetLovers\obj\Debug\PetLovers.pdb
