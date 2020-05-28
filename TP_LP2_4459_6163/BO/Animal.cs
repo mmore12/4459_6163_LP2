@@ -17,6 +17,7 @@ namespace BO
     /// <summary>
     /// Purpose: Classe para gerir um animal
     /// </summary>
+    [Serializable]
     public class Animal
     {
         #region Attributes
@@ -42,6 +43,7 @@ namespace BO
         /// <param name="d">data nascimento do animal</param>
         public Animal(string nome, string genero, DateTime dataNasc)
         {
+            this.nome = nome;
             this.genero = genero;
             this.dataNasc = dataNasc;
             //auto incremento do ID do animal

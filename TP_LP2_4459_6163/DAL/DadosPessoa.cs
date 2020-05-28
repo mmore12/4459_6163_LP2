@@ -51,7 +51,8 @@ namespace DAL
 
             return true;
 
-            #endregion
+            
         }
+        #endregion
     }
 }

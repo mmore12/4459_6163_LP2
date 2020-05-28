@@ -10,8 +10,10 @@ using BO;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +22,7 @@ namespace DAL
     /// <summary>
     /// Classe para gerir dados de um cao
     /// </summary>
+    [Serializable]
     public class DadosCao
     {
 
@@ -70,7 +73,93 @@ namespace DAL
         }
         #endregion
 
+        #region Registar cao em ficheiro
+  
+        public static bool SaveCao(string nomeFicheiro)
+        {
+            if(File.Exists(nomeFicheiro))
+            {
+                try
+                {
+                    Stream stream = File.Open(nomeFicheiro, FileMode.Create);
+                    BinaryFormatter bin = new BinaryFormatter();
+                    bin.Serialize(stream, caes);
+                    stream.Close();
+                    return true;
+                }
+                catch (IOException e)
+                {
+                    throw e;
+                }
+                
+            }
+            return false;
+        }
 
+        public static bool MostraCao(string nomeFicheiro)
+        {
+            if(File.Exists(nomeFicheiro))
+            {
+                try
+                {
+                    Stream stream = File.Open(nomeFicheiro, FileMode.Open);
+                    BinaryFormatter bin = new BinaryFormatter();
+                    caes = (List<Cao>)bin.Deserialize(stream);
+                    stream.Close();
+                    return true;
+                }
+                catch(IOException e)
+                {
+                    throw e;
+                }
+                
+            }
+            return false;
+        }
+
+        public static string MeuToString()
+        {
+            string cao = "";
+            foreach (Cao c in caes)
+            {
+                cao += String.Format("ID: " + c.Id + " Nome: " + c.Nome + " Raça: " + c.Raca + " Gênero: " + c.Genero + " Data de Nascimento: "
+                + c.DataNasc + " Porte: " + c.Porte + " Personalidade: " + c.Personalidade + "\n");
+            }
+            return cao;
+
+        }
+
+
+
+        //public static bool CarregaCao()
+        //{
+        //    StreamReader reader = new StreamReader(File.OpenRead(Environment.CurrentDirectory + @"../../../../DAL/Ficheiros/caes.txt"));
+        //    string cabecalho = reader.ReadLine();
+        //    while (!reader.EndOfStream)
+        //    {
+        //        string linha = reader.ReadLine();
+        //        if (!String.IsNullOrWhiteSpace(linha))
+        //        {
+        //            string[] values = linha.Split(';');
+        //            Cao cao = new Cao()
+        //            {
+        //                Id = int.Parse(values[0]),
+        //                Nome = values[1],
+        //                Genero = values[2],
+        //                DataNasc = DateTime.Parse(values[3]),
+        //                Porte = values[4],
+        //                Personalidade = values[5],
+        //                Raca = values[6]
+        //            };
+        //            caes.Add(cao);
+        //        }
+        //    }
+        //    return true;
+        //}
         
+        #endregion
+
+
+
     }
 }

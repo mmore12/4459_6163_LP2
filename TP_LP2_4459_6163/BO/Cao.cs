@@ -16,6 +16,7 @@ namespace BO
     /// <summary>
     /// Purpose: Classe para gerir um cao
     /// </summary>
+    [Serializable]
     public class Cao : Animal
     {
         #region Attributes

@@ -7,6 +7,7 @@
 *	<description>Gerir um canil</description>
 **/
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,15 +46,19 @@ namespace TP_LP2_4459_6163
             Console.WriteLine(c.ToString());
             Console.WriteLine(c2.ToString());
 
-            RegrasParque.ProcuraCao(5);
-           
+            //RegrasParque.ProcuraCao(2);
+
+            RegrasParque.RegistarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
+            RegrasParque.MostrarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
+            Console.WriteLine(RegrasParque.ShowCaes());
+
             #endregion
 
             #region Boletim Sanitario
-        
+
             //Vacina v = new Vacina("gripe", "imunologica");
             //RegrasParque.InsereVacina(v);
-            
+
             //Vacinas disponiveis
             RegrasParque.ProcuraTodasVacinas();
                

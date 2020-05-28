@@ -14,12 +14,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excecoes;
+using System.IO;
 
 namespace BR
 {
     /// <summary>
     /// Regras negocio para gerir o parque
     /// </summary>
+    [Serializable]
     public class RegrasParque
     {
         #region Regras para gerir caes
@@ -55,6 +57,35 @@ namespace BR
                 Console.WriteLine(e.Message);
                 throw e;
             }          
+        }
+
+        public static bool RegistarCao(string nomeFicheiro)
+        {
+            try
+            {
+                return DadosCao.SaveCao(nomeFicheiro);
+            }
+            catch (IOException e)
+            {
+                throw e;
+            }
+        }
+
+        public static bool MostrarCao(string nomeFicheiro)
+        {
+            try
+            {
+                return DadosCao.MostraCao(nomeFicheiro);
+            }
+            catch (IOException e)
+            {
+                throw e;
+            }
+        }
+
+        public static string ShowCaes()
+        {
+            return DadosCao.MeuToString();
         }
         #endregion
 
