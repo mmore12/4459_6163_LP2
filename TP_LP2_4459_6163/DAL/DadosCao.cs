@@ -71,10 +71,30 @@ namespace DAL
             }
             return null;
         }
+
+        /// <summary>
+        /// Metodo para apresentar todos os caes presentes na lista de caes
+        /// </summary>
+        /// <returns>string com todos os caes dentro da lista</returns>
+        public static string MeuToString()
+        {
+            string cao = "";
+            foreach (Cao c in caes)
+            {
+                cao += String.Format("ID: " + c.Id + " Nome: " + c.Nome + " Raça: " + c.Raca + " Gênero: " + c.Genero + " Data de Nascimento: "
+                + c.DataNasc + " Porte: " + c.Porte + " Personalidade: " + c.Personalidade + "\n");
+            }
+            return cao;
+
+        }
         #endregion
 
         #region Registar cao em ficheiro
-  
+        /// <summary>
+        /// Grava os caes num ficheiro binario
+        /// </summary>
+        /// <param name="nomeFicheiro">caminho do ficheiro</param>
+        /// <returns>verdadeiro caso o ficheiro exista, falso caso nao exista</returns>
         public static bool SaveCao(string nomeFicheiro)
         {
             if(File.Exists(nomeFicheiro))
@@ -96,6 +116,11 @@ namespace DAL
             return false;
         }
 
+        /// <summary>
+        /// Metodo para ler o ficheiro binario onde tem os caes inseridos
+        /// </summary>
+        /// <param name="nomeFicheiro">caminho do ficheiro</param>
+        /// <returns>verdadeiro caso o ficheiro exista, falso caso nao exista</returns>
         public static bool MostraCao(string nomeFicheiro)
         {
             if(File.Exists(nomeFicheiro))
@@ -117,23 +142,10 @@ namespace DAL
             return false;
         }
 
-        public static string MeuToString()
-        {
-            string cao = "";
-            foreach (Cao c in caes)
-            {
-                cao += String.Format("ID: " + c.Id + " Nome: " + c.Nome + " Raça: " + c.Raca + " Gênero: " + c.Genero + " Data de Nascimento: "
-                + c.DataNasc + " Porte: " + c.Porte + " Personalidade: " + c.Personalidade + "\n");
-            }
-            return cao;
-
-        }
-
-
 
         //public static bool CarregaCao()
         //{
-        //    StreamReader reader = new StreamReader(File.OpenRead(Environment.CurrentDirectory + @"../../../../DAL/Ficheiros/caes.txt"));
+        //    StreamReader reader = new StreamReader(File.OpenRead(Environment.CurrentDirectory + @"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.txt"));
         //    string cabecalho = reader.ReadLine();
         //    while (!reader.EndOfStream)
         //    {
@@ -156,7 +168,7 @@ namespace DAL
         //    }
         //    return true;
         //}
-        
+
         #endregion
 
 

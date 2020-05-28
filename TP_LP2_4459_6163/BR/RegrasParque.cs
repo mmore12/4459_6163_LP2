@@ -58,7 +58,11 @@ namespace BR
                 throw e;
             }          
         }
-
+        /// <summary>
+        /// Regista o cao num ficheiro binario
+        /// </summary>
+        /// <param name="nomeFicheiro">caminho do ficheiro</param>
+        /// <returns>verdadeiro se o ficheiro existe, falso se nao existir</returns>
         public static bool RegistarCao(string nomeFicheiro)
         {
             try
@@ -71,6 +75,16 @@ namespace BR
             }
         }
 
+        //public static bool RegistarCaoTxt()
+        //{
+        //    return DadosCao.CarregaCao();
+        //}
+
+        /// <summary>
+        /// Le do ficheiro binario os caes presentes
+        /// </summary>
+        /// <param name="nomeFicheiro">caminho do ficheiro</param>
+        /// <returns>verdadeiro se o ficheiro existe, falso se nao existir</returns>
         public static bool MostrarCao(string nomeFicheiro)
         {
             try
@@ -83,6 +97,10 @@ namespace BR
             }
         }
 
+        /// <summary>
+        /// Mostra os caes na consola
+        /// </summary>
+        /// <returns>string com todos os caes na lista</returns>
         public static string ShowCaes()
         {
             return DadosCao.MeuToString();

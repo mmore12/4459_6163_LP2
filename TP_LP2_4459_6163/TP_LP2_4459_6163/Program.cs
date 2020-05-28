@@ -51,7 +51,7 @@ namespace TP_LP2_4459_6163
             RegrasParque.RegistarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
             RegrasParque.MostrarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
             Console.WriteLine(RegrasParque.ShowCaes());
-
+            //RegrasParque.RegistarCaoTxt();
             #endregion
 
             #region Boletim Sanitario
