@@ -26,7 +26,7 @@ namespace TP_LP2_4459_6163
             #region Cao
             Cao c = new Cao("Bolinhas", "terrier", "macho", DateTime.Today, "médio", "meigo");
             Cao c2 = new Cao("Pateco", "labrador", "macho", DateTime.Today, "médio", "brincalhao");
-            
+
             try
             {
                 if (RegrasParque.InsereCao(c) == true && RegrasParque.InsereCao(c2) == true)
@@ -39,12 +39,12 @@ namespace TP_LP2_4459_6163
             }
             catch (Excecao e)
             {
-               
+
                 Console.WriteLine(e.Message);
             }
 
-            Console.WriteLine(c.ToString());
-            Console.WriteLine(c2.ToString());
+            //Console.WriteLine(c.ToString());
+            //Console.WriteLine(c2.ToString());
 
             //RegrasParque.ProcuraCao(2);
 

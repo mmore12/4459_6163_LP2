@@ -51,6 +51,10 @@
       <Project>{88248a0e-99d9-4204-8bcc-9662b1329546}</Project>
       <Name>BO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Excecoes\Excecoes.csproj">
+      <Project>{ebbabd9b-9cca-49df-9a14-709cb3d670e3}</Project>
+      <Name>Excecoes</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

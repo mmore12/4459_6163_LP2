@@ -44,7 +44,7 @@ namespace BR
         {
             try
             {
-                //verifica se o ID é positivo
+                //verifica se o ID é positivo e não nulo
                 if (id >= 0 && DadosCao.GetCao(id)!=null)
                 {
                     return DadosCao.GetCao(id);
@@ -65,14 +65,18 @@ namespace BR
         /// <returns>verdadeiro se o ficheiro existe, falso se nao existir</returns>
         public static bool RegistarCao(string nomeFicheiro)
         {
-            try
+            if (File.Exists(nomeFicheiro))
             {
-                return DadosCao.SaveCao(nomeFicheiro);
+                try
+                {
+                    return DadosCao.SaveCao(nomeFicheiro);
+                }
+                catch (IOException e)
+                {
+                    throw e;
+                }
             }
-            catch (IOException e)
-            {
-                throw e;
-            }
+            return false;
         }
 
         //public static bool RegistarCaoTxt()
@@ -87,14 +91,18 @@ namespace BR
         /// <returns>verdadeiro se o ficheiro existe, falso se nao existir</returns>
         public static bool MostrarCao(string nomeFicheiro)
         {
-            try
+            if (File.Exists(nomeFicheiro))
             {
-                return DadosCao.MostraCao(nomeFicheiro);
+                try
+                {
+                    return DadosCao.MostraCao(nomeFicheiro);
+                }
+                catch (IOException e)
+                {
+                    throw e;
+                }
             }
-            catch (IOException e)
-            {
-                throw e;
-            }
+            return false;
         }
 
         /// <summary>
@@ -115,11 +123,17 @@ namespace BR
         /// <returns>adiciona a vacina caso seja true, senao retorna falso</returns>
         public static bool InsereVacina(Vacina v)
         {
-            //apenas adiciona caso o ID seja positivo, não é permitido ID's negativos
-            if (v.Id >= 0)
-                return DadosBoletim.AddVacina(v);
-            else return false;
-          
+            try
+            {
+                //apenas adiciona caso o ID seja positivo, não é permitido ID's negativos
+                if (DadosBoletim.AddVacina(v))
+                    return true;
+                else throw new Excecao("Vacina já existe!");
+            }
+            catch (Excecao e)
+            {
+                throw e;
+            }       
         }
 
         /// <summary>
@@ -130,6 +144,8 @@ namespace BR
         {
            return DadosBoletim.GetAllVacinas();        
         }
+
+
         #endregion
     }
 }

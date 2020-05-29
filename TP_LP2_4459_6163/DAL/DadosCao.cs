@@ -8,14 +8,10 @@
 **/
 using BO;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Reflection;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
-using System.Threading.Tasks;
+using Excecoes;
 
 namespace DAL
 {
@@ -79,13 +75,17 @@ namespace DAL
         public static string MeuToString()
         {
             string cao = "";
-            foreach (Cao c in caes)
-            {
-                cao += String.Format("ID: " + c.Id + " Nome: " + c.Nome + " Raça: " + c.Raca + " Gênero: " + c.Genero + " Data de Nascimento: "
-                + c.DataNasc + " Porte: " + c.Porte + " Personalidade: " + c.Personalidade + "\n");
+            //verifica se a lista de caes está vazia
+            if (caes.Count != 0)
+            {             
+                foreach (Cao c in caes)
+                {
+                    cao += String.Format("ID: " + c.Id + " Nome: " + c.Nome + " Raça: " + c.Raca + " Gênero: " + c.Genero + " Data de Nascimento: "
+                    + c.DataNasc + " Porte: " + c.Porte + " Personalidade: " + c.Personalidade + "\n");
+                }
+                return cao;
             }
-            return cao;
-
+            return null;
         }
         #endregion
 
@@ -97,7 +97,8 @@ namespace DAL
         /// <returns>verdadeiro caso o ficheiro exista, falso caso nao exista</returns>
         public static bool SaveCao(string nomeFicheiro)
         {
-            if(File.Exists(nomeFicheiro))
+            //verifica se a lista de caes está vazia
+            if (caes.Count != 0)
             {
                 try
                 {
@@ -111,9 +112,8 @@ namespace DAL
                 {
                     throw e;
                 }
-                
             }
-            return false;
+            throw new Excecao("Não existem cães adicionados!");
         }
 
         /// <summary>
@@ -123,23 +123,24 @@ namespace DAL
         /// <returns>verdadeiro caso o ficheiro exista, falso caso nao exista</returns>
         public static bool MostraCao(string nomeFicheiro)
         {
-            if(File.Exists(nomeFicheiro))
+            try
             {
-                try
+                Stream stream = File.Open(nomeFicheiro, FileMode.Open);
+                //verifica se o ficheiro está vazio
+                if (stream.Length != 0)
                 {
-                    Stream stream = File.Open(nomeFicheiro, FileMode.Open);
+                    
                     BinaryFormatter bin = new BinaryFormatter();
                     caes = (List<Cao>)bin.Deserialize(stream);
                     stream.Close();
                     return true;
                 }
-                catch(IOException e)
-                {
-                    throw e;
-                }
-                
+                throw new IOException("Ficheiro está vazio");
             }
-            return false;
+            catch (IOException e)
+            {
+                throw e;
+            }
         }
 
 
