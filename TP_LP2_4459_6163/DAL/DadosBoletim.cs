@@ -99,12 +99,15 @@ namespace DAL
 
         public static bool AddTratamentoBoletim(BoletimSanitario boletim, ArrayList tratamento)
         {
-            for(int i = 0; i< boletins.Count; i++)
+            for(int i = 0; i<= boletins.Count; i++)
             {
-                if(boletim.IdAnimal == boletins[i].IdAnimal)
+                if (boletim.IdAnimal == boletins[i].IdAnimal)
                 {
-                    boletins[i].Tratamentos.Add(tratamento[i]);
-                    return true;
+                    for (int z = 0; z <= boletins[i].Tratamentos.Count; z++)
+                    {
+                        boletins[i].Tratamentos.Add(tratamento[z]);
+                        return true;
+                    }
                 }
             }
             return false;

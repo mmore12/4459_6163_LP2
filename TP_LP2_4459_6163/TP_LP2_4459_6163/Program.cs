@@ -30,7 +30,7 @@ namespace TP_LP2_4459_6163
 
             try
             {
-                if (RegrasParque.InsereCao(c) == true && RegrasParque.InsereCao(c2) == true)
+                if (RegrasCao.InsereCao(c) == true && RegrasCao.InsereCao(c2) == true)
                 {
                     Console.WriteLine("ID: " + c.Id + "\n");
                     Console.WriteLine("ID: " + c2.Id + "\n");
@@ -49,23 +49,24 @@ namespace TP_LP2_4459_6163
 
             //RegrasParque.ProcuraCao(2);
 
-            RegrasParque.RegistarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
-            RegrasParque.MostrarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
-            Console.WriteLine(RegrasParque.ShowCaes());
+            RegrasCao.RegistarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
+            RegrasCao.MostrarCao(@"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.bin");
+            Console.WriteLine(RegrasCao.ShowCaes());
             //RegrasParque.RegistarCaoTxt();
             #endregion
 
             #region Boletim Sanitario
 
             Vacina v = new Vacina("gripe", "imunologica");
-            RegrasParque.InsereVacina(v);
-
+            RegrasBoletim.InsereVacina(v);
+            ArrayList aux = new ArrayList();
+            aux.Add(v);
             //Vacinas disponiveis
-            RegrasParque.ProcuraTodasVacinas();
+            RegrasBoletim.ProcuraTodasVacinas();
             BoletimSanitario b = new BoletimSanitario(c);
-            
-            RegrasParque.InsereBoletim(b);
-          
+
+            RegrasBoletim.InsereBoletim(b);
+            RegrasBoletim.InsereTratamentoBoletim(b, aux);
             #endregion
 
 

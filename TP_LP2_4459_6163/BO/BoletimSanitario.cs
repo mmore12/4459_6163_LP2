@@ -42,7 +42,7 @@ namespace BO
         {
             idAnimal = cao.Id;
             dataCriacao = DateTime.Today;
-            new ArrayList();
+            tratamentos = new ArrayList();
         }
 
         #endregion
