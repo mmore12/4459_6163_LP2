@@ -20,10 +20,10 @@ namespace BO
     public class BoletimSanitario
     {
         #region Attributes
-        DateTime data_Vacina;
-        int n_Ordem, id_Animal;
+        DateTime dataVacina, dataCriacao;
+        int idAnimal;
         //Arraylist para poder inserir tratamentos (vacinas, desparasitaçao, banhos)
-        ArrayList tratamentos = new ArrayList();
+        ArrayList tratamentos;
         #endregion
 
         #region Constructors
@@ -34,20 +34,15 @@ namespace BO
         {
 
         }
-        /// <summary>
-        /// Construtor de um boletim sanitario
-        /// </summary>
-        /// <param name="id_Animal">ID do animal</param>
-        /// <param name="n_Ordem">Numero do veterinario</param>
-        /// <param name="tratamentos">tratamos realizados</param>
-        /// <param name="data_Vacina">data da vacina</param>
-        public BoletimSanitario(int id_Animal, int n_Ordem, ArrayList tratamentos, DateTime data_Vacina)
+
+        public BoletimSanitario(Cao cao)
         {
-            this.id_Animal = id_Animal;
-            this.n_Ordem = n_Ordem;
-            this.tratamentos.Add(tratamentos);
-            this.data_Vacina = data_Vacina;
+            idAnimal = cao.Id;
+            dataCriacao = DateTime.Today;
+            new ArrayList();
         }
+
+
 
         #endregion
 
@@ -55,26 +50,24 @@ namespace BO
         /// <summary>
         /// Manipular data da vacina
         /// </summary>
-        public DateTime Data_Vacina
+        public DateTime DataVacina
         {
-            get { return data_Vacina; }
-            set { data_Vacina = value; }
+            get { return dataVacina; }
+            set { dataVacina = value; }
         }
-        /// <summary>
-        /// Manipular numero do veterinario
-        /// </summary>
-        public int N_Ordem
+
+        public DateTime DataCriacao
         {
-            get { return n_Ordem; }
-            set { n_Ordem = value; }
+            get { return dataCriacao; }
         }
+
         /// <summary>
         /// Manipular ID do animal
         /// </summary>
         public int Id_Animal
         {
-            get { return id_Animal; }
-            set { id_Animal = value; }
+            get { return idAnimal; }
+            set { idAnimal = value; }
         }
         /// <summary>
         /// Manipular os tratamentos

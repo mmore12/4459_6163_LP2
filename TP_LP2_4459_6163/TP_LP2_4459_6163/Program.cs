@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using BO;
 using BR;
 using Excecoes;
+using System.Collections;
 
 namespace TP_LP2_4459_6163
 {
@@ -56,12 +57,14 @@ namespace TP_LP2_4459_6163
 
             #region Boletim Sanitario
 
-            //Vacina v = new Vacina("gripe", "imunologica");
-            //RegrasParque.InsereVacina(v);
+            Vacina v = new Vacina("gripe", "imunologica");
+            RegrasParque.InsereVacina(v);
 
             //Vacinas disponiveis
             RegrasParque.ProcuraTodasVacinas();
-               
+            BoletimSanitario b = new BoletimSanitario(c);
+            b.Tratamentos.Add(v);
+            RegrasParque.InsereBoletim(b);
 
            
             #endregion

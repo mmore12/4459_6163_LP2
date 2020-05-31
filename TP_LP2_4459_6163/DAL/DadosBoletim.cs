@@ -93,7 +93,6 @@ namespace DAL
                 }
             }
             boletins.Add(bol);
-
             return true;
         }
         #endregion

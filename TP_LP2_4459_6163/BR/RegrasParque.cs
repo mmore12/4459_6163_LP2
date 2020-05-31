@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Excecoes;
 using System.IO;
+using System.Threading;
 
 namespace BR
 {
@@ -125,7 +126,7 @@ namespace BR
         {
             try
             {
-                //apenas adiciona caso o ID seja positivo, não é permitido ID's negativos
+                //adiciona apenas se a vainca ainda não existir
                 if (DadosBoletim.AddVacina(v))
                     return true;
                 else throw new Excecao("Vacina já existe!");
@@ -145,7 +146,20 @@ namespace BR
            return DadosBoletim.GetAllVacinas();        
         }
 
-
+        public static bool InsereBoletim(BoletimSanitario boletim)
+        {
+            try
+            {
+                //apenas adiciona se o boletim não existir
+                if (DadosBoletim.AddBoletim(boletim))
+                    return true;
+                else throw new Excecao("Boletim já existe!");
+            }
+            catch (Excecao e)
+            {
+                throw e;
+            }
+        }
         #endregion
     }
 }
