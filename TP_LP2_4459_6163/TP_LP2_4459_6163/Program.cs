@@ -63,10 +63,9 @@ namespace TP_LP2_4459_6163
             //Vacinas disponiveis
             RegrasParque.ProcuraTodasVacinas();
             BoletimSanitario b = new BoletimSanitario(c);
-            b.Tratamentos.Add(v);
+            
             RegrasParque.InsereBoletim(b);
-
-           
+          
             #endregion
 
 

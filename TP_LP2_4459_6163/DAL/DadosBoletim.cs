@@ -7,6 +7,7 @@
 *	<description>Gerir um canil</description>
 **/
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -94,6 +95,19 @@ namespace DAL
             }
             boletins.Add(bol);
             return true;
+        }
+
+        public static bool AddTratamentoBoletim(BoletimSanitario boletim, ArrayList tratamento)
+        {
+            foreach(BoletimSanitario boletim1 in boletins)
+            {
+                if(boletim1.Id_Animal == boletim.Id_Animal)
+                {
+                    boletim.Tratamentos = tratamento;
+                    return true;
+                }
+            }
+            return false;
         }
         #endregion
     }

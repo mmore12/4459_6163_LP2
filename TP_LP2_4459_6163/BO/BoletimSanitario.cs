@@ -34,15 +34,16 @@ namespace BO
         {
 
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cao"></param>
         public BoletimSanitario(Cao cao)
         {
             idAnimal = cao.Id;
             dataCriacao = DateTime.Today;
             new ArrayList();
         }
-
-
 
         #endregion
 
@@ -75,7 +76,7 @@ namespace BO
         public ArrayList Tratamentos
         {
             get { return tratamentos; }
-            set { tratamentos = value; }
+            set { tratamentos.Add(value); }
         }
 
         #endregion
