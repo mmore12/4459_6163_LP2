@@ -1,15 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+*	<copyright file="BO.cs" company="IPCA">
+*		Copyright (c) 2020 All Rights Reserved
+*	</copyright>
+* 	<author>Aurélien Bouça e Elden Carones</author>
+*   <date>5/19/2020</date>
+*	<description>Gerir um canil</description>
+**/
 using BO;
-using Excecoes;
 using DAL;
+using Excecoes;
 using System.Collections;
 
 namespace BR
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class RegrasBoletim
     {
         #region Regras para gerir um boletim sanitario     
@@ -41,7 +47,11 @@ namespace BR
         {
             return DadosBoletim.GetAllVacinas();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="boletim"></param>
+        /// <returns></returns>
         public static bool InsereBoletim(BoletimSanitario boletim)
         {
             try
@@ -56,15 +66,20 @@ namespace BR
                 throw e;
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="boletim"></param>
+        /// <param name="tratamento"></param>
+        /// <returns></returns>
         public static bool InsereTratamentoBoletim(BoletimSanitario boletim, ArrayList tratamento)
         {
             try
             {
-                //apenas adiciona se o boletim não existir
+                //apenas adiciona se o boletim existir
                 if (DadosBoletim.AddTratamentoBoletim(boletim, tratamento))
                     return true;
-                else throw new Excecao("Boletim já existe!");
+                else throw new Excecao("Boletim inexistente!");
             }
             catch (Excecao e)
             {
