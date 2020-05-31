@@ -65,7 +65,7 @@ namespace BO
         /// <summary>
         /// Manipular ID do animal
         /// </summary>
-        public int Id_Animal
+        public int IdAnimal
         {
             get { return idAnimal; }
             set { idAnimal = value; }

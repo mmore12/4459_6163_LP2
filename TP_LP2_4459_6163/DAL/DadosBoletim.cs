@@ -88,7 +88,7 @@ namespace DAL
             foreach (BoletimSanitario boletimSanitario in boletins)
             {
                 //valida se o boletim daquele animal já existe
-                if (boletimSanitario.Id_Animal == bol.Id_Animal)
+                if (boletimSanitario.IdAnimal == bol.IdAnimal)
                 {
                     return false;
                 }
@@ -99,11 +99,11 @@ namespace DAL
 
         public static bool AddTratamentoBoletim(BoletimSanitario boletim, ArrayList tratamento)
         {
-            foreach(BoletimSanitario boletim1 in boletins)
+            for(int i = 0; i< boletins.Count; i++)
             {
-                if(boletim1.Id_Animal == boletim.Id_Animal)
+                if(boletim.IdAnimal == boletins[i].IdAnimal)
                 {
-                    boletim.Tratamentos = tratamento;
+                    boletins[i].Tratamentos.Add(tratamento[i]);
                     return true;
                 }
             }
