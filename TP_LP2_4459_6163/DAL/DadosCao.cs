@@ -7,11 +7,11 @@
 *	<description>Gerir um canil</description>
 **/
 using BO;
+using Excecoes;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using Excecoes;
 
 namespace DAL
 {
@@ -128,8 +128,7 @@ namespace DAL
                 Stream stream = File.Open(nomeFicheiro, FileMode.Open);
                 //verifica se o ficheiro está vazio
                 if (stream.Length != 0)
-                {
-                    
+                {                  
                     BinaryFormatter bin = new BinaryFormatter();
                     caes = (List<Cao>)bin.Deserialize(stream);
                     stream.Close();
@@ -142,34 +141,6 @@ namespace DAL
                 throw e;
             }
         }
-
-
-        //public static bool CarregaCao()
-        //{
-        //    StreamReader reader = new StreamReader(File.OpenRead(Environment.CurrentDirectory + @"C:\Users\BOUCAA\Documents\Visual Studio 2019\GITHUB\TP_LP2_4459_6163\DAL\Ficheiros\caes.txt"));
-        //    string cabecalho = reader.ReadLine();
-        //    while (!reader.EndOfStream)
-        //    {
-        //        string linha = reader.ReadLine();
-        //        if (!String.IsNullOrWhiteSpace(linha))
-        //        {
-        //            string[] values = linha.Split(';');
-        //            Cao cao = new Cao()
-        //            {
-        //                Id = int.Parse(values[0]),
-        //                Nome = values[1],
-        //                Genero = values[2],
-        //                DataNasc = DateTime.Parse(values[3]),
-        //                Porte = values[4],
-        //                Personalidade = values[5],
-        //                Raca = values[6]
-        //            };
-        //            caes.Add(cao);
-        //        }
-        //    }
-        //    return true;
-        //}
-
         #endregion
 
 

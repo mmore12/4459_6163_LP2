@@ -8,19 +8,16 @@
 **/
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// Classe para gerir um boletim sanitario
     /// </summary>
     public class BoletimSanitario
     {
         #region Attributes
-        DateTime dataVacina, dataCriacao;
+        DateTime dataCriacao;
         int idAnimal;
         //Arraylist para poder inserir tratamentos (vacinas, desparasitaçao, banhos)
         ArrayList tratamentos;
@@ -35,9 +32,9 @@ namespace BO
 
         }
         /// <summary>
-        /// 
+        /// Construtor para criar um boletim associado a um cao
         /// </summary>
-        /// <param name="cao"></param>
+        /// <param name="cao">Cão associado ao boletim</param>
         public BoletimSanitario(Cao cao)
         {
             idAnimal = cao.Id;
@@ -49,14 +46,8 @@ namespace BO
 
         #region Properties
         /// <summary>
-        /// Manipular data da vacina
+        /// Propertie para verificar data da criaçao do boletim
         /// </summary>
-        public DateTime DataVacina
-        {
-            get { return dataVacina; }
-            set { dataVacina = value; }
-        }
-
         public DateTime DataCriacao
         {
             get { return dataCriacao; }

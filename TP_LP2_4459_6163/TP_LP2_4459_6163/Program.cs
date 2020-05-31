@@ -6,15 +6,10 @@
 *   <date>5/19/2020</date>
 *	<description>Gerir um canil</description>
 **/
-using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BO;
 using BR;
 using Excecoes;
+using System;
 using System.Collections;
 
 namespace TP_LP2_4459_6163

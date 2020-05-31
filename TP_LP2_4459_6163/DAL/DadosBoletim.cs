@@ -6,13 +6,10 @@
 *   <date>5/19/2020</date>
 *	<description>Gerir um canil</description>
 **/
+using BO;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BO;
 
 namespace DAL
 {
@@ -87,7 +84,7 @@ namespace DAL
         {
             foreach (BoletimSanitario boletimSanitario in boletins)
             {
-                //valida se o boletim daquele animal já existe
+                //verifica se o boletim daquele animal já existe
                 if (boletimSanitario.IdAnimal == bol.IdAnimal)
                 {
                     return false;
@@ -96,13 +93,21 @@ namespace DAL
             boletins.Add(bol);
             return true;
         }
-
+        /// <summary>
+        /// Adiciona tratamentos a um boletim
+        /// </summary>
+        /// <param name="boletim">boletim para adicionar os tratamentos</param>
+        /// <param name="tratamento">tratamentos a inserir</param>
+        /// <returns>verdadeiro caso o boletim exista, caso contrario falso</returns>
         public static bool AddTratamentoBoletim(BoletimSanitario boletim, ArrayList tratamento)
         {
+            //percorre a lista de boletins
             for(int i = 0; i<= boletins.Count; i++)
             {
+                //verifica se o boletim existe
                 if (boletim.IdAnimal == boletins[i].IdAnimal)
                 {
+                    //percorre o arraylist de tratamentos
                     for (int z = 0; z <= boletins[i].Tratamentos.Count; z++)
                     {
                         boletins[i].Tratamentos.Add(tratamento[z]);

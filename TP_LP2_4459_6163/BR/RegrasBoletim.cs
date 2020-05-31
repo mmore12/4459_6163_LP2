@@ -14,11 +14,11 @@ using System.Collections;
 namespace BR
 {
     /// <summary>
-    /// 
+    /// Classe para gerir regras relativas aos boletins e vacinas
     /// </summary>
     public class RegrasBoletim
     {
-        #region Regras para gerir um boletim sanitario     
+        #region Regras para gerir Vacinas     
         /// <summary>
         /// Insere vacina na lista de vacinas
         /// </summary>
@@ -28,7 +28,7 @@ namespace BR
         {
             try
             {
-                //adiciona apenas se a vainca ainda não existir
+                //adiciona apenas se a vacina ainda não existir
                 if (DadosBoletim.AddVacina(v))
                     return true;
                 else throw new Excecao("Vacina já existe!");
@@ -47,11 +47,15 @@ namespace BR
         {
             return DadosBoletim.GetAllVacinas();
         }
+        #endregion
+
+        #region Regras para gerir boletins
+
         /// <summary>
-        /// 
+        /// Insere boletim na lista de boletins
         /// </summary>
-        /// <param name="boletim"></param>
-        /// <returns></returns>
+        /// <param name="boletim">boletim a inserir</param>
+        /// <returns>verdadeiro caso o boletim seja inserido, falso caso já exista</returns>
         public static bool InsereBoletim(BoletimSanitario boletim)
         {
             try
@@ -67,11 +71,11 @@ namespace BR
             }
         }
         /// <summary>
-        /// 
+        /// Insere tratamento a um boletim já existente
         /// </summary>
-        /// <param name="boletim"></param>
-        /// <param name="tratamento"></param>
-        /// <returns></returns>
+        /// <param name="boletim">boletim para inserir tratamento</param>
+        /// <param name="tratamento">tratamento a inserir</param>
+        /// <returns>verdadeiro se o boletim existir, falso se o boletim não existir</returns>
         public static bool InsereTratamentoBoletim(BoletimSanitario boletim, ArrayList tratamento)
         {
             try
