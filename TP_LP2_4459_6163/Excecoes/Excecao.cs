@@ -25,15 +25,15 @@ namespace Excecoes
         /// <summary>
         /// Construtor que recebe uma string
         /// </summary>
-        /// <param name="e"></param>
+        /// <param name="e">mensagem a mostrar</param>
         public Excecao(string e) : base(e)
         {
         }
         /// <summary>
         /// Construtor que recebe uma string e uma exception
         /// </summary>
-        /// <param name="s"></param>
-        /// <param name="e"></param>
+        /// <param name="s">mensagem a mostrar</param>
+        /// <param name="e">mensagem de erro</param>
         public Excecao(string s, Exception e)
         {
             throw new Excecao("Erro: " + s + " " + e.Message);

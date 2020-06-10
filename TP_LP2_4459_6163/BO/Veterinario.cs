@@ -14,7 +14,7 @@ using System.Text;
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// Classe para gerir um veterinario
     /// </summary>
     public class Veterinario : Pessoa
     {
