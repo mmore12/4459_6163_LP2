@@ -67,11 +67,6 @@ namespace BO
         }
         #endregion
 
-        #region Functions
-        #endregion
-
-        #region Overrides
-        #endregion
 
         #endregion
     }

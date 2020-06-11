@@ -36,6 +36,7 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>mensagem a mostrar</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -67,6 +68,7 @@
 <parametername>s</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>mensagem a mostrar</para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -74,6 +76,7 @@
 <parametername>e</parametername>
 </parameternamelist>
 <parameterdescription>
+<para>mensagem de erro</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

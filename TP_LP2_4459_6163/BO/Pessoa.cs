@@ -15,14 +15,15 @@ using System.Text;
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// A classe Pessoa tem como propósito definir os atributos bases de qualquer pessoa a intervir no sistema.
+    /// Como não queremos instanciar nenhuma pessoa, esta permanecerá abstrata.
     /// </summary>
     public abstract class Pessoa
     {
         #region Attributes
 
         static int totPessoas;
-
+        
         int id;
         string uNome;
         string pNome;
@@ -35,7 +36,9 @@ namespace BO
 
         #region Constructors
 
-
+        /// <summary>
+        /// De forma a permitir uma sequencialização do ID de sócio com base no número de sócios é initializada o a variável totPessoas no construtor da classe
+        /// </summary>
         static Pessoa()
         {
             totPessoas = 0;
@@ -46,12 +49,19 @@ namespace BO
         /// </summary>
         public Pessoa()
         {
-            ++totPessoas;
+            id=++totPessoas;
         }
 
+        /// <summary>
+        /// Construtor completo de uma instancia da classe Pesso    
+        /// De notar que id único da Pessoa é atribuído automáticamente e incrementado diretamente na construção da classe.
+        /// </summary>
+        /// <param name="pNome">Primeiro Nome da Pessoa</param>
+        /// <param name="uNome">Ultimo Nome da Pessoa</param>
+        /// <param name="dataNasc">Data de NAscimento da Pessoa</param>
         public Pessoa(string pNome, string uNome, DateTime dataNasc)
         {
-            ++totPessoas;
+            id= ++totPessoas;
 
             this.pNome = pNome;
             this.uNome = uNome;
@@ -62,23 +72,29 @@ namespace BO
 
         #region Properties
 
+        /// <summary>
+        /// Proriedade publica para o atributo Primeiro Nome
+        /// </summary>
         public string PNome {
             get { return pNome; }
             set { pNome = value; }
         }
 
+        /// <summary>
+        /// Propriedade publica para o atributo Ultimo Nome
+        /// </summary>
         public string UNome {
             get { return uNome; }
             set { uNome = value; }
         }
 
+        /// <summary>
+        /// Propriedade publica para a Data de Nascimento
+        /// </summary>
         public DateTime DataNasc {
             get { return dataNasc; }
             set { dataNasc = value; }
         }
-        #endregion
-
-        #region Overrides
         #endregion
 
         #endregion

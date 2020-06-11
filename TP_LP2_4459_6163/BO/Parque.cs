@@ -14,7 +14,8 @@ using System.Text;
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose:Classe que permite gerir um parque de forma individuzliada
+    /// lotação, nome, ou ouros atributos que possam diferenciar cada parque.
     /// </summary>
     public class Parque
     {

@@ -14,7 +14,9 @@ using System.Text;
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose:A classe PArqueAnimal resulta da normalização da relação N:M de PArque e Animal
+    /// Visa identificar em que data esteve o animal num determinado parque.
+    /// Classe não implementada mas identificada no diagrama de classes.
     /// </summary>
     public class ParqueAnimal
     {

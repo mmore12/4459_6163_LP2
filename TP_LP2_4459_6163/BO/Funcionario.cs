@@ -15,7 +15,10 @@ using System.Xml.Schema;
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose: A classe Funcionário, que deriva da classe base Pessoa, tem como objetivo representar qualquer funcionário da instituição
+    /// Esse funcionário poderá ter várias tarefas e poderão ser considerados mais que um funcionários para canis maiores
+    /// 
+    /// Funções de classe ainda não implementada, mas definida no diagrama de classes.
     /// </summary>
     public class Funcionario : Pessoa
     {
@@ -39,12 +42,21 @@ namespace BO
             totFunc = 0;
         }
 
-
+        /// <summary>
+        /// Contrutor por defeito
+        /// </summary>
         public Funcionario()
         {
             idFunc = ++totFunc;
         }
 
+        /// <summary>
+        /// Contrutor por defeito de funcionarios
+        /// </summary>
+        /// <param name="dataAdmissao">Data de admissão como funcionario</param>
+        /// <param name="pNome">Primeiro Nome do fncionário</param>
+        /// <param name="uNome">Ultimo Nome do funcionário</param>
+        /// <param name="dataNasc">Data de Nascimento do funcionário</param>
         public Funcionario(DateTime dataAdmissao, string pNome, string uNome, DateTime dataNasc) : base(pNome, uNome, dataNasc)
         {
             idFunc = ++totFunc;
@@ -54,7 +66,10 @@ namespace BO
 
         #region Properties
 
-
+        /// <summary>
+        /// Propriedade de ID funcionário.
+        /// É possível ler o ID mas não definir. Este é definido automaticamente.
+        /// </summary>
         public int IdFunc {
             get { return idFunc; }
         }
@@ -66,12 +81,6 @@ namespace BO
             get { return dataAdmissao; }
             set { dataAdmissao = value; }
         }
-        #endregion
-
-        #region Functions
-        #endregion
-
-        #region Overrides
         #endregion
 
         #endregion

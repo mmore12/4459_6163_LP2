@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" line="31" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" bodystart="31" bodyend="33"/>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" line="32" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" bodystart="32" bodyend="34"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -31,15 +31,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" line="50" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" bodystart="50" bodyend="52"/>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" line="51" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" bodystart="51" bodyend="53"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Purpose: </para>
+<para>Purpose:Classe que permite gerir um parque de forma individuzliada lotação, nome, ou ouros atributos que possam diferenciar cada parque. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" line="19" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" bodystart="20" bodyend="56"/>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" line="20" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Parque.cs" bodystart="21" bodyend="57"/>
     <listofallmembers>
       <member refid="class_b_o_1_1_parque_1a8800fb892a379211650e33e36bc45d5d" prot="public" virt="non-virtual"><scope>BO::Parque</scope><name>Parque</name></member>
       <member refid="class_b_o_1_1_parque_1ac2975243bf4d402b702627928afec672" prot="private" virt="non-virtual"><scope>BO::Parque</scope><name>~Parque</name></member>

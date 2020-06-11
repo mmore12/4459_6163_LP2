@@ -14,7 +14,7 @@ using System.Text;
 namespace BO
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose: Permitir representar um sócio que deriva da classe base PEsoa
     /// </summary>
     public class Socio : Pessoa
     {
@@ -24,7 +24,7 @@ namespace BO
         DateTime dataInsc;
         int idSocio;
         int categoria;
-
+        
         enum CATEGORIA {
             JUNIOR,
             SENIOR,
@@ -64,35 +64,29 @@ namespace BO
 
         #region Properties
 
+        /// <summary>
+        /// Propriedade para data de nascimento
+        /// </summary>
         public DateTime DataInsc {
             get { return dataInsc; }
             set { dataInsc = value; }
         }
 
+        /// <summary>
+        /// ID Socio definido automaticamente podendo apenas ser lido
+        /// </summary>
         public int IDSocio {
             get { return idSocio; }
         }
 
+        /// <summary>
+        /// A categoria de sócio apenas pode ser lida e será definida com base na data de nascimento e através de um enumerado.
+        /// </summary>
         public int Categoria {
             get { return categoria; }
         }
     
 
-        #endregion
-
-        #region Functions
-        #endregion
-
-        #region Overrides
-        #endregion
-
-        #region Destructor
-        /// <summary>
-        /// The destructor.
-        /// </summary>
-        ~Socio()
-        {
-        }
         #endregion
 
         #endregion

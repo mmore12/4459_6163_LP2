@@ -131,38 +131,21 @@
         <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="38" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="38" bodyend="43"/>
       </memberdef>
       </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_b_o_1_1_boletim_sanitario_1a2a469a431b4e080be7a00afba597ebf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>BO.BoletimSanitario.~BoletimSanitario</definition>
-        <argsstring>()</argsstring>
-        <name>~BoletimSanitario</name>
-        <briefdescription>
-<para>The destructor. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="79" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="79" bodyend="81"/>
-      </memberdef>
-      </sectiondef>
     <briefdescription>
 <para>Classe para gerir um boletim sanitario </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="17" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="18" bodyend="84"/>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="17" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="18" bodyend="75"/>
     <listofallmembers>
       <member refid="class_b_o_1_1_boletim_sanitario_1a425e6a60f1913a4edabef7632e99d48d" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>BoletimSanitario</name></member>
       <member refid="class_b_o_1_1_boletim_sanitario_1a35c257beaea0283e788bda07f1bd1478" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>BoletimSanitario</name></member>
       <member refid="class_b_o_1_1_boletim_sanitario_1a69910db55229ec7c702598755b2c41b4" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>DataCriacao</name></member>
       <member refid="class_b_o_1_1_boletim_sanitario_1a7c60fe320dda075d299ee5a1d2759359" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>dataCriacao</name></member>
-      <member refid="class_b_o_1_1_boletim_sanitario_1a3814a79a035b5e92e1d5984f649cd95f" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>idAnimal</name></member>
       <member refid="class_b_o_1_1_boletim_sanitario_1a74c15c0da05d62caa0c1132ada93fa8e" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>IdAnimal</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a3814a79a035b5e92e1d5984f649cd95f" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>idAnimal</name></member>
       <member refid="class_b_o_1_1_boletim_sanitario_1acc010a0be70a1e39971b1c42afd1b19e" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>Tratamentos</name></member>
       <member refid="class_b_o_1_1_boletim_sanitario_1a461c678ca8186916409833bd716ea52d" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>tratamentos</name></member>
-      <member refid="class_b_o_1_1_boletim_sanitario_1a2a469a431b4e080be7a00afba597ebf1" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>~BoletimSanitario</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

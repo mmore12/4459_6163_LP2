@@ -99,14 +99,7 @@ namespace BO
         }
         #endregion
 
-        #region Destructor
-        /// <summary>
-        /// The destructor.
-        /// </summary>
-        ~Animal()
-        {
-        }
-        #endregion
+ 
 
     }
 }

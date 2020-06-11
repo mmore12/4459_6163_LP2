@@ -223,22 +223,6 @@
         <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" line="95" column="32" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" bodystart="95" bodyend="99"/>
       </memberdef>
       </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_b_o_1_1_animal_1aea84493bef2cd49273563808ebdd32e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>BO.Animal.~Animal</definition>
-        <argsstring>()</argsstring>
-        <name>~Animal</name>
-        <briefdescription>
-<para>The destructor. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" line="106" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" bodystart="106" bodyend="108"/>
-      </memberdef>
-      </sectiondef>
     <briefdescription>
 <para>Purpose: Classe para gerir um animal </para>
     </briefdescription>
@@ -256,7 +240,7 @@
         <link refid="class_b_o_1_1_animal"/>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" line="21" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" bodystart="22" bodyend="111"/>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" line="21" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" bodystart="22" bodyend="104"/>
     <listofallmembers>
       <member refid="class_b_o_1_1_animal_1a1875ae17d001fb0593fdc49910b76c5e" prot="public" virt="non-virtual"><scope>BO::Animal</scope><name>Animal</name></member>
       <member refid="class_b_o_1_1_animal_1af84ac999b24e869ee3858666fe6c00ed" prot="public" virt="non-virtual"><scope>BO::Animal</scope><name>Animal</name></member>
@@ -265,12 +249,11 @@
       <member refid="class_b_o_1_1_animal_1a8d8e009aa53e96af621f7c0883aa42b9" prot="private" virt="non-virtual"><scope>BO::Animal</scope><name>dataNasc</name></member>
       <member refid="class_b_o_1_1_animal_1ae7641fd03a9cb79b4489ccbd9831033c" prot="public" virt="non-virtual"><scope>BO::Animal</scope><name>Genero</name></member>
       <member refid="class_b_o_1_1_animal_1af989e7a0b90e2472dcd89485adf8dacb" prot="private" virt="non-virtual"><scope>BO::Animal</scope><name>genero</name></member>
-      <member refid="class_b_o_1_1_animal_1ad7022c099cae79d7f739b55880f80364" prot="private" virt="non-virtual"><scope>BO::Animal</scope><name>id</name></member>
       <member refid="class_b_o_1_1_animal_1ad7077e785af88c57d71d818776c1fd9b" prot="public" virt="non-virtual"><scope>BO::Animal</scope><name>Id</name></member>
+      <member refid="class_b_o_1_1_animal_1ad7022c099cae79d7f739b55880f80364" prot="private" virt="non-virtual"><scope>BO::Animal</scope><name>id</name></member>
       <member refid="class_b_o_1_1_animal_1ae0a8a2dad139f3f0b9f0c2c7a1306b86" prot="private" virt="non-virtual"><scope>BO::Animal</scope><name>nome</name></member>
       <member refid="class_b_o_1_1_animal_1a7da4535f737aa0dd84308735f75f64fd" prot="public" virt="non-virtual"><scope>BO::Animal</scope><name>Nome</name></member>
       <member refid="class_b_o_1_1_animal_1ae310104e6f28a905907a0b796b4cd6dc" prot="public" virt="non-virtual"><scope>BO::Animal</scope><name>ToString</name></member>
-      <member refid="class_b_o_1_1_animal_1aea84493bef2cd49273563808ebdd32e7" prot="private" virt="non-virtual"><scope>BO::Animal</scope><name>~Animal</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

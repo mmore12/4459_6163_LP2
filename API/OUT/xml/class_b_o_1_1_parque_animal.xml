@@ -15,34 +15,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" line="31" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" bodystart="31" bodyend="33"/>
-      </memberdef>
-      </sectiondef>
-      <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_b_o_1_1_parque_animal_1a190189d25fa91648d3efe59b9b8a3c45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>BO.ParqueAnimal.~ParqueAnimal</definition>
-        <argsstring>()</argsstring>
-        <name>~ParqueAnimal</name>
-        <briefdescription>
-<para>The destructor. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" line="50" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" bodystart="50" bodyend="52"/>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" line="33" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" bodystart="33" bodyend="35"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Purpose: </para>
+<para>Purpose:A classe PArqueAnimal resulta da normalização da relação N:M de PArque e <ref refid="class_b_o_1_1_animal" kindref="compound">Animal</ref> Visa identificar em que data esteve o animal num determinado parque. Classe não implementada mas identificada no diagrama de classes. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" line="19" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" bodystart="20" bodyend="56"/>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" line="21" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/ParqueAnimal.cs" bodystart="22" bodyend="49"/>
     <listofallmembers>
       <member refid="class_b_o_1_1_parque_animal_1abb29c3b0b19c142673b991155c4a273c" prot="public" virt="non-virtual"><scope>BO::ParqueAnimal</scope><name>ParqueAnimal</name></member>
-      <member refid="class_b_o_1_1_parque_animal_1a190189d25fa91648d3efe59b9b8a3c45" prot="private" virt="non-virtual"><scope>BO::ParqueAnimal</scope><name>~ParqueAnimal</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

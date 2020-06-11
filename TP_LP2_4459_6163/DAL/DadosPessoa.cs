@@ -16,7 +16,7 @@ using System.Text;
 namespace DAL
 {
     /// <summary>
-    /// Purpose:
+    /// Purpose: Classe que permite a manipulaão dos dados e das estruturas de dados
     /// </summary>
     public class DadosPessoa
     {
@@ -27,6 +27,10 @@ namespace DAL
 
         #region CARREGAR DADOS
 
+        /// <summary>
+        /// Classe que faz o load dos funcionários a partir de um ficheiro
+        /// </summary>
+        /// <returns></returns>
         public static bool CarregaFuncionarios()
         {
             try {
