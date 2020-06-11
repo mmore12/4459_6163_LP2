@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_b_o_1_1_pessoa" kind="class" language="C#" prot="public">
+    <compoundname>BO::Pessoa</compoundname>
+    <derivedcompoundref refid="class_b_o_1_1_funcionario" prot="public" virt="non-virtual">BO.Funcionario</derivedcompoundref>
+    <derivedcompoundref refid="class_b_o_1_1_socio" prot="public" virt="non-virtual">BO.Socio</derivedcompoundref>
+    <derivedcompoundref refid="class_b_o_1_1_veterinario" prot="public" virt="non-virtual">BO.Veterinario</derivedcompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_b_o_1_1_pessoa_1a94221bba90ba71600488ed3c40b89489" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int BO.Pessoa.totPessoas</definition>
+        <argsstring></argsstring>
+        <name>totPessoas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="24" column="20" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_o_1_1_pessoa_1a1e634822b66bd3492e7ee96b1e99249c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BO.Pessoa.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="26" column="13" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_pessoa_1aababa1716e590efb0b3acb0f4a59ea78" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Pessoa.uNome</definition>
+        <argsstring></argsstring>
+        <name>uNome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="27" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_pessoa_1acfe8e46c61422fee5ae830c346e8c902" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Pessoa.pNome</definition>
+        <argsstring></argsstring>
+        <name>pNome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="28" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_pessoa_1ad83a0c07d816381a622620aaf8fa33f0" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime BO.Pessoa.dataNasc</definition>
+        <argsstring></argsstring>
+        <name>dataNasc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="29" column="18" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_b_o_1_1_pessoa_1afbd0bb338596d8851ba8da8a0b3583c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Pessoa.PNome</definition>
+        <argsstring></argsstring>
+        <name>PNome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="65" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_pessoa_1a070564a6fd4156e3822724f2f9b317ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Pessoa.UNome</definition>
+        <argsstring></argsstring>
+        <name>UNome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="70" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_pessoa_1a9fc65f19eb6fe6d755b8427042a4ab1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime BO.Pessoa.DataNasc</definition>
+        <argsstring></argsstring>
+        <name>DataNasc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="75" column="25" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_b_o_1_1_pessoa_1aa62095896a6acc166f14581a476bd0cb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static BO.Pessoa.Pessoa</definition>
+        <argsstring>()</argsstring>
+        <name>Pessoa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="39" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_o_1_1_pessoa_1ace29195e31e1a0c66dec2875eec90374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.Pessoa.Pessoa</definition>
+        <argsstring>()</argsstring>
+        <name>Pessoa</name>
+        <briefdescription>
+<para>construtor por defeito </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="47" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_1_1_pessoa_1addca56cd6b9878e0843bfc70f26e259b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.Pessoa.Pessoa</definition>
+        <argsstring>(string pNome, string uNome, DateTime dataNasc)</argsstring>
+        <name>Pessoa</name>
+        <param>
+          <type>string</type>
+          <declname>pNome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>uNome</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataNasc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="52" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="52" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>BO.Veterinario</label>
+        <link refid="class_b_o_1_1_veterinario"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BO.Socio</label>
+        <link refid="class_b_o_1_1_socio"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>BO.Pessoa</label>
+        <link refid="class_b_o_1_1_pessoa"/>
+      </node>
+      <node id="2">
+        <label>BO.Funcionario</label>
+        <link refid="class_b_o_1_1_funcionario"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" line="20" column="21" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Pessoa.cs" bodystart="21" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_b_o_1_1_pessoa_1ad83a0c07d816381a622620aaf8fa33f0" prot="private" virt="non-virtual"><scope>BO::Pessoa</scope><name>dataNasc</name></member>
+      <member refid="class_b_o_1_1_pessoa_1a9fc65f19eb6fe6d755b8427042a4ab1c" prot="public" virt="non-virtual"><scope>BO::Pessoa</scope><name>DataNasc</name></member>
+      <member refid="class_b_o_1_1_pessoa_1a1e634822b66bd3492e7ee96b1e99249c" prot="private" virt="non-virtual"><scope>BO::Pessoa</scope><name>id</name></member>
+      <member refid="class_b_o_1_1_pessoa_1aa62095896a6acc166f14581a476bd0cb" prot="private" virt="non-virtual"><scope>BO::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_b_o_1_1_pessoa_1ace29195e31e1a0c66dec2875eec90374" prot="public" virt="non-virtual"><scope>BO::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_b_o_1_1_pessoa_1addca56cd6b9878e0843bfc70f26e259b" prot="public" virt="non-virtual"><scope>BO::Pessoa</scope><name>Pessoa</name></member>
+      <member refid="class_b_o_1_1_pessoa_1acfe8e46c61422fee5ae830c346e8c902" prot="private" virt="non-virtual"><scope>BO::Pessoa</scope><name>pNome</name></member>
+      <member refid="class_b_o_1_1_pessoa_1afbd0bb338596d8851ba8da8a0b3583c0" prot="public" virt="non-virtual"><scope>BO::Pessoa</scope><name>PNome</name></member>
+      <member refid="class_b_o_1_1_pessoa_1a94221bba90ba71600488ed3c40b89489" prot="private" virt="non-virtual"><scope>BO::Pessoa</scope><name>totPessoas</name></member>
+      <member refid="class_b_o_1_1_pessoa_1a070564a6fd4156e3822724f2f9b317ef" prot="public" virt="non-virtual"><scope>BO::Pessoa</scope><name>UNome</name></member>
+      <member refid="class_b_o_1_1_pessoa_1aababa1716e590efb0b3acb0f4a59ea78" prot="private" virt="non-virtual"><scope>BO::Pessoa</scope><name>uNome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

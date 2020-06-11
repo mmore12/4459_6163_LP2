@@ -1,0 +1,100 @@
+\hypertarget{class_b_r_1_1_regras_boletim}{}\doxysection{B\+R.\+Regras\+Boletim Class Reference}
+\label{class_b_r_1_1_regras_boletim}\index{BR.RegrasBoletim@{BR.RegrasBoletim}}
+
+
+Classe para gerir regras relativas aos boletins e vacinas  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_b_r_1_1_regras_boletim_ae72d50043415ed62428a9a82886df421}{Insere\+Vacina}} (\mbox{\hyperlink{class_b_o_1_1_vacina}{Vacina}} v)
+\begin{DoxyCompactList}\small\item\em Insere vacina na lista de vacinas \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_b_r_1_1_regras_boletim_aae6fd4c58e843e846c3b268bf9e1e438}{Procura\+Todas\+Vacinas}} ()
+\begin{DoxyCompactList}\small\item\em Procura todas as vacinas \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_b_r_1_1_regras_boletim_ade1d6ded7121d44be01becaef07a65ea}{Insere\+Boletim}} (\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}} boletim)
+\begin{DoxyCompactList}\small\item\em Insere boletim na lista de boletins \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_b_r_1_1_regras_boletim_a91fa3f6f3f84aa78899c9a7482bde09b}{Insere\+Tratamento\+Boletim}} (\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}} boletim, Array\+List tratamento)
+\begin{DoxyCompactList}\small\item\em Insere tratamento a um boletim já existente \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe para gerir regras relativas aos boletins e vacinas 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_b_r_1_1_regras_boletim_ade1d6ded7121d44be01becaef07a65ea}\label{class_b_r_1_1_regras_boletim_ade1d6ded7121d44be01becaef07a65ea}} 
+\index{BR.RegrasBoletim@{BR.RegrasBoletim}!InsereBoletim@{InsereBoletim}}
+\index{InsereBoletim@{InsereBoletim}!BR.RegrasBoletim@{BR.RegrasBoletim}}
+\doxysubsubsection{\texorpdfstring{InsereBoletim()}{InsereBoletim()}}
+{\footnotesize\ttfamily static bool B\+R.\+Regras\+Boletim.\+Insere\+Boletim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}}}]{boletim }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere boletim na lista de boletins 
+
+
+\begin{DoxyParams}{Parameters}
+{\em boletim} & boletim a inserir\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+verdadeiro caso o boletim seja inserido, falso caso já exista
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_boletim_a91fa3f6f3f84aa78899c9a7482bde09b}\label{class_b_r_1_1_regras_boletim_a91fa3f6f3f84aa78899c9a7482bde09b}} 
+\index{BR.RegrasBoletim@{BR.RegrasBoletim}!InsereTratamentoBoletim@{InsereTratamentoBoletim}}
+\index{InsereTratamentoBoletim@{InsereTratamentoBoletim}!BR.RegrasBoletim@{BR.RegrasBoletim}}
+\doxysubsubsection{\texorpdfstring{InsereTratamentoBoletim()}{InsereTratamentoBoletim()}}
+{\footnotesize\ttfamily static bool B\+R.\+Regras\+Boletim.\+Insere\+Tratamento\+Boletim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}}}]{boletim,  }\item[{Array\+List}]{tratamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere tratamento a um boletim já existente 
+
+
+\begin{DoxyParams}{Parameters}
+{\em boletim} & boletim para inserir tratamento\\
+\hline
+{\em tratamento} & tratamento a inserir\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+verdadeiro se o boletim existir, falso se o boletim não existir
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_boletim_ae72d50043415ed62428a9a82886df421}\label{class_b_r_1_1_regras_boletim_ae72d50043415ed62428a9a82886df421}} 
+\index{BR.RegrasBoletim@{BR.RegrasBoletim}!InsereVacina@{InsereVacina}}
+\index{InsereVacina@{InsereVacina}!BR.RegrasBoletim@{BR.RegrasBoletim}}
+\doxysubsubsection{\texorpdfstring{InsereVacina()}{InsereVacina()}}
+{\footnotesize\ttfamily static bool B\+R.\+Regras\+Boletim.\+Insere\+Vacina (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_vacina}{Vacina}}}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Insere vacina na lista de vacinas 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & vacina a inserir\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+adiciona a vacina caso seja true, senao retorna falso
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_boletim_aae6fd4c58e843e846c3b268bf9e1e438}\label{class_b_r_1_1_regras_boletim_aae6fd4c58e843e846c3b268bf9e1e438}} 
+\index{BR.RegrasBoletim@{BR.RegrasBoletim}!ProcuraTodasVacinas@{ProcuraTodasVacinas}}
+\index{ProcuraTodasVacinas@{ProcuraTodasVacinas}!BR.RegrasBoletim@{BR.RegrasBoletim}}
+\doxysubsubsection{\texorpdfstring{ProcuraTodasVacinas()}{ProcuraTodasVacinas()}}
+{\footnotesize\ttfamily static string B\+R.\+Regras\+Boletim.\+Procura\+Todas\+Vacinas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura todas as vacinas 
+
+\begin{DoxyReturn}{Returns}
+Imprime todas as vacinas na consola
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+C\+A\+R\+O\+N\+E\+S\+E/\+Documents/\+I\+P\+C\+A/1.\+2/\+L\+P2/\+Git\+Hub/\+T\+P2\+\_\+/\+T\+P\+\_\+\+L\+P2\+\_\+4459\+\_\+6163/\+B\+R/\mbox{\hyperlink{_regras_boletim_8cs}{Regras\+Boletim.\+cs}}\end{DoxyCompactItemize}

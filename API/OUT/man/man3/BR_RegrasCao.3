@@ -1,0 +1,119 @@
+.TH "BR.RegrasCao" 3 "Mon Jun 8 2020" "PetLovers" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BR.RegrasCao \- Regras negocio para gerir o parque  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBInsereCao\fP (\fBCao\fP c)"
+.br
+.RI "Regra negocio para inserir um cao "
+.ti -1c
+.RI "static string \fBProcuraCao\fP (int id)"
+.br
+.RI "Procura um cao pelo ID "
+.ti -1c
+.RI "static bool \fBRegistarCao\fP (string nomeFicheiro)"
+.br
+.RI "Regista o cao num ficheiro binario "
+.ti -1c
+.RI "static bool \fBMostrarCao\fP (string nomeFicheiro)"
+.br
+.RI "Le do ficheiro binario os caes presentes "
+.ti -1c
+.RI "static string \fBShowCaes\fP ()"
+.br
+.RI "Mostra os caes na consola "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Regras negocio para gerir o parque 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool BR\&.RegrasCao\&.InsereCao (\fBCao\fP c)\fC [static]\fP"
+
+.PP
+Regra negocio para inserir um cao 
+.PP
+\fBParameters\fP
+.RS 4
+\fIc\fP cão a inserir
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+adiciona o cao e retorna verdadeiro, caso contrario retorna falso
+.RE
+.PP
+
+.SS "static bool BR\&.RegrasCao\&.MostrarCao (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Le do ficheiro binario os caes presentes 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP caminho do ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+verdadeiro se o ficheiro existe, falso se nao existir
+.RE
+.PP
+
+.SS "static string BR\&.RegrasCao\&.ProcuraCao (int id)\fC [static]\fP"
+
+.PP
+Procura um cao pelo ID 
+.PP
+\fBParameters\fP
+.RS 4
+\fIid\fP ID do cão
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+retorna o cão, caso o encontre, se nao encontrar gera uma excecao
+.RE
+.PP
+
+.SS "static bool BR\&.RegrasCao\&.RegistarCao (string nomeFicheiro)\fC [static]\fP"
+
+.PP
+Regista o cao num ficheiro binario 
+.PP
+\fBParameters\fP
+.RS 4
+\fInomeFicheiro\fP caminho do ficheiro
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+verdadeiro se o ficheiro existe, falso se nao existir
+.RE
+.PP
+
+.SS "static string BR\&.RegrasCao\&.ShowCaes ()\fC [static]\fP"
+
+.PP
+Mostra os caes na consola 
+.PP
+\fBReturns\fP
+.RS 4
+string com todos os caes na lista
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PetLovers from the source code\&.

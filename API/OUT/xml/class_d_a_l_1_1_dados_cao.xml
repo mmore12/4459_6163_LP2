@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_d_a_l_1_1_dados_cao" kind="class" language="C#" prot="public">
+    <compoundname>DAL::DadosCao</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_d_a_l_1_1_dados_cao_1af6f352666b207097539c3324a53eb28e" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_b_o_1_1_cao" kindref="compound">Cao</ref> &gt;</type>
+        <definition>List&lt;Cao&gt; DAL.DadosCao.caes</definition>
+        <argsstring></argsstring>
+        <name>caes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="25" column="29" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_cao_1a59ab212cb462544b94c16df04ea116b1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static DAL.DadosCao.DadosCao</definition>
+        <argsstring>()</argsstring>
+        <name>DadosCao</name>
+        <briefdescription>
+<para>inicia lista de caes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="30" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_cao_1a56f5e0959b64ce0108f4a6ae8323edd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosCao.AddCao</definition>
+        <argsstring>(Cao c)</argsstring>
+        <name>AddCao</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_cao" kindref="compound">Cao</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Adicionar um cao </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cao a adicionar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdade se adicionou o cao ou falso se falhar</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="41" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="41" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_cao_1a8e98e8075d0d1545935072047e3e6b87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DAL.DadosCao.GetCao</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetCao</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Procura um cao </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id do cao a procurar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna o cao procurado</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="60" column="30" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="60" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_cao_1a4ed2db6c60c7fdd72814e18645837059" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DAL.DadosCao.MeuToString</definition>
+        <argsstring>()</argsstring>
+        <name>MeuToString</name>
+        <briefdescription>
+<para>Metodo para apresentar todos os caes presentes na lista de caes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string com todos os caes dentro da lista</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="75" column="30" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="75" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_cao_1ae32e289854f5d2b00ff5dd3fc6fbabd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosCao.SaveCao</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>SaveCao</name>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Grava os caes num ficheiro binario </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caminho do ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro caso o ficheiro exista, falso caso nao exista</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="98" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="98" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_cao_1ad09dfe611d1cc916307e643334ece342" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosCao.MostraCao</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>MostraCao</name>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Metodo para ler o ficheiro binario onde tem os caes inseridos </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caminho do ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro caso o ficheiro exista, falso caso nao exista</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="124" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="124" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para gerir dados de um cao </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" line="22" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosCao.cs" bodystart="23" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_d_a_l_1_1_dados_cao_1a56f5e0959b64ce0108f4a6ae8323edd8" prot="public" virt="non-virtual"><scope>DAL::DadosCao</scope><name>AddCao</name></member>
+      <member refid="class_d_a_l_1_1_dados_cao_1af6f352666b207097539c3324a53eb28e" prot="private" virt="non-virtual"><scope>DAL::DadosCao</scope><name>caes</name></member>
+      <member refid="class_d_a_l_1_1_dados_cao_1a59ab212cb462544b94c16df04ea116b1" prot="private" virt="non-virtual"><scope>DAL::DadosCao</scope><name>DadosCao</name></member>
+      <member refid="class_d_a_l_1_1_dados_cao_1a8e98e8075d0d1545935072047e3e6b87" prot="public" virt="non-virtual"><scope>DAL::DadosCao</scope><name>GetCao</name></member>
+      <member refid="class_d_a_l_1_1_dados_cao_1a4ed2db6c60c7fdd72814e18645837059" prot="public" virt="non-virtual"><scope>DAL::DadosCao</scope><name>MeuToString</name></member>
+      <member refid="class_d_a_l_1_1_dados_cao_1ad09dfe611d1cc916307e643334ece342" prot="public" virt="non-virtual"><scope>DAL::DadosCao</scope><name>MostraCao</name></member>
+      <member refid="class_d_a_l_1_1_dados_cao_1ae32e289854f5d2b00ff5dd3fc6fbabd9" prot="public" virt="non-virtual"><scope>DAL::DadosCao</scope><name>SaveCao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

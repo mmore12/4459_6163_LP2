@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_8c6c4474291fdbc1441564b17716ec5c" kind="dir">
+    <compoundname>C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO</compoundname>
+    <innerdir refid="dir_db6c34027f204357cfd8ee074bb6b134">C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Properties</innerdir>
+    <innerfile refid="_animal_8cs">Animal.cs</innerfile>
+    <innerfile refid="_boletim_sanitario_8cs">BoletimSanitario.cs</innerfile>
+    <innerfile refid="_cao_8cs">Cao.cs</innerfile>
+    <innerfile refid="_funcionario_8cs">Funcionario.cs</innerfile>
+    <innerfile refid="_parque_8cs">Parque.cs</innerfile>
+    <innerfile refid="_parque_animal_8cs">ParqueAnimal.cs</innerfile>
+    <innerfile refid="_pessoa_8cs">Pessoa.cs</innerfile>
+    <innerfile refid="_setor_8cs">Setor.cs</innerfile>
+    <innerfile refid="_socio_8cs">Socio.cs</innerfile>
+    <innerfile refid="_vacina_8cs">Vacina.cs</innerfile>
+    <innerfile refid="_veterinario_8cs">Veterinario.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_d_a_l_1_1_dados_pessoa" kind="class" language="C#" prot="public">
+    <compoundname>DAL::DadosPessoa</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_d_a_l_1_1_dados_pessoa_1ae250c8945741f8197845781cfa195d4f" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_b_o_1_1_funcionario" kindref="compound">Funcionario</ref> &gt;</type>
+        <definition>List&lt;Funcionario&gt; DAL.DadosPessoa.listaFuncionarios</definition>
+        <argsstring></argsstring>
+        <name>listaFuncionarios</name>
+        <initializer>= new List&lt;<ref refid="class_b_o_1_1_funcionario" kindref="compound">Funcionario</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosPessoa.cs" line="24" column="21" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosPessoa.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_pessoa_1adee086ad9b7e326b37cfc9df191d8c52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosPessoa.CarregaFuncionarios</definition>
+        <argsstring>()</argsstring>
+        <name>CarregaFuncionarios</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosPessoa.cs" line="30" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosPessoa.cs" bodystart="30" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosPessoa.cs" line="21" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosPessoa.cs" bodystart="22" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_d_a_l_1_1_dados_pessoa_1adee086ad9b7e326b37cfc9df191d8c52" prot="public" virt="non-virtual"><scope>DAL::DadosPessoa</scope><name>CarregaFuncionarios</name></member>
+      <member refid="class_d_a_l_1_1_dados_pessoa_1ae250c8945741f8197845781cfa195d4f" prot="private" virt="non-virtual"><scope>DAL::DadosPessoa</scope><name>listaFuncionarios</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

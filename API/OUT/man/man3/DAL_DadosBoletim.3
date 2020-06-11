@@ -1,0 +1,101 @@
+.TH "DAL.DadosBoletim" 3 "Mon Jun 8 2020" "PetLovers" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DAL.DadosBoletim \- Classe para gerir dados do boletim sanitario e vacinas  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBAddVacina\fP (\fBVacina\fP vacina)"
+.br
+.RI "Adicionar uma vacina "
+.ti -1c
+.RI "static string \fBGetAllVacinas\fP ()"
+.br
+.RI "Mostra todas as vacinas "
+.ti -1c
+.RI "static bool \fBAddBoletim\fP (\fBBoletimSanitario\fP bol)"
+.br
+.RI "Adicionar um boletim sanitario "
+.ti -1c
+.RI "static bool \fBAddTratamentoBoletim\fP (\fBBoletimSanitario\fP boletim, ArrayList tratamento)"
+.br
+.RI "Adiciona tratamentos a um boletim "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe para gerir dados do boletim sanitario e vacinas 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool DAL\&.DadosBoletim\&.AddBoletim (\fBBoletimSanitario\fP bol)\fC [static]\fP"
+
+.PP
+Adicionar um boletim sanitario 
+.PP
+\fBParameters\fP
+.RS 4
+\fIbol\fP boletim a adicionar
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+retorna true se o boletim for inserido, caso contrario, retorna false
+.RE
+.PP
+
+.SS "static bool DAL\&.DadosBoletim\&.AddTratamentoBoletim (\fBBoletimSanitario\fP boletim, ArrayList tratamento)\fC [static]\fP"
+
+.PP
+Adiciona tratamentos a um boletim 
+.PP
+\fBParameters\fP
+.RS 4
+\fIboletim\fP boletim para adicionar os tratamentos
+.br
+\fItratamento\fP tratamentos a inserir
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+verdadeiro caso o boletim exista, caso contrario falso
+.RE
+.PP
+
+.SS "static bool DAL\&.DadosBoletim\&.AddVacina (\fBVacina\fP vacina)\fC [static]\fP"
+
+.PP
+Adicionar uma vacina 
+.PP
+\fBParameters\fP
+.RS 4
+\fIvacina\fP Vacina a adicionar
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+retorna true se a vacina for inserida, caso contrario, falso
+.RE
+.PP
+
+.SS "static string DAL\&.DadosBoletim\&.GetAllVacinas ()\fC [static]\fP"
+
+.PP
+Mostra todas as vacinas 
+.PP
+\fBReturns\fP
+.RS 4
+Imprime na consola todas as vacinas presentes na lista
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PetLovers from the source code\&.

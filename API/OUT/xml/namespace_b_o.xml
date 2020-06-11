@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_b_o" kind="namespace" language="C#">
+    <compoundname>BO</compoundname>
+    <innerclass refid="class_b_o_1_1_animal" prot="public">BO::Animal</innerclass>
+    <innerclass refid="class_b_o_1_1_boletim_sanitario" prot="public">BO::BoletimSanitario</innerclass>
+    <innerclass refid="class_b_o_1_1_cao" prot="public">BO::Cao</innerclass>
+    <innerclass refid="class_b_o_1_1_funcionario" prot="public">BO::Funcionario</innerclass>
+    <innerclass refid="class_b_o_1_1_parque" prot="public">BO::Parque</innerclass>
+    <innerclass refid="class_b_o_1_1_parque_animal" prot="public">BO::ParqueAnimal</innerclass>
+    <innerclass refid="class_b_o_1_1_pessoa" prot="public">BO::Pessoa</innerclass>
+    <innerclass refid="class_b_o_1_1_setor" prot="public">BO::Setor</innerclass>
+    <innerclass refid="class_b_o_1_1_socio" prot="public">BO::Socio</innerclass>
+    <innerclass refid="class_b_o_1_1_vacina" prot="public">BO::Vacina</innerclass>
+    <innerclass refid="class_b_o_1_1_veterinario" prot="public">BO::Veterinario</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Animal.cs" line="15" column="1"/>
+  </compounddef>
+</doxygen>

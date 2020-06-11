@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_b_o_1_1_cao" kind="class" language="C#" prot="public">
+    <compoundname>BO::Cao</compoundname>
+    <basecompoundref refid="class_b_o_1_1_animal" prot="public" virt="non-virtual">BO.Animal</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_o_1_1_cao_1a5fb29c59ec734040fda42099dc339b09" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Cao.porte</definition>
+        <argsstring></argsstring>
+        <name>porte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="23" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_cao_1adbc20a36838e611a3e1cd098fd00f964" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Cao.personalidade</definition>
+        <argsstring></argsstring>
+        <name>personalidade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="23" column="22" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_cao_1a801861ac8cac65001a2abf0763fcde79" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Cao.raca</definition>
+        <argsstring></argsstring>
+        <name>raca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="23" column="36" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_b_o_1_1_cao_1a9d72321ac05dca3674a71bda25e8d242" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Cao.Raca</definition>
+        <argsstring></argsstring>
+        <name>Raca</name>
+        <briefdescription>
+<para>Propertie para manipular raça do animal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="54" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_cao_1a21ad3d5d18672ffae8c8ddadea8fffbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Cao.Porte</definition>
+        <argsstring></argsstring>
+        <name>Porte</name>
+        <briefdescription>
+<para>Propertie para manipular porte do animal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="62" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_cao_1af6c1bbabf12ed85b345abcdf36b6e988" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Cao.Personalidade</definition>
+        <argsstring></argsstring>
+        <name>Personalidade</name>
+        <briefdescription>
+<para>Propertie para manipular personalidade do animal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="70" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_o_1_1_cao_1aa8d7f3ae7bc521d1bab353ccd8d73a3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.Cao.Cao</definition>
+        <argsstring>()</argsstring>
+        <name>Cao</name>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="30" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_1_1_cao_1a89367c44c2b099fb0686face4f5e4012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.Cao.Cao</definition>
+        <argsstring>(string nome, string raca, string genero, DateTime data_Nasc, string porte, string personalidade)</argsstring>
+        <name>Cao</name>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>raca</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>genero</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>data_Nasc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>porte</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>personalidade</declname>
+        </param>
+        <briefdescription>
+<para>Construtor do animal </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nome do animal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>raca</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>raça do animal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>genero</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>genero do animal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_Nasc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data nascimento do animal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>porte</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>porte do animal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>personalidade</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>personalidade do animal</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="42" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_1_1_cao_1aa7bad153c9df8270620c59f11923fa90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string BO.Cao.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Override do metodo tostring para imprimir um cao </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Imprime um cao na consola</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="82" column="32" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_b_o_1_1_cao_1a77f8e7b21d704d0bbd14c27d0328d92a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.Cao.~Cao</definition>
+        <argsstring>()</argsstring>
+        <name>~Cao</name>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="94" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="94" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para gerir um cao </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BO.Cao</label>
+        <link refid="class_b_o_1_1_cao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Animal</label>
+        <link refid="class_b_o_1_1_animal"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BO.Cao</label>
+        <link refid="class_b_o_1_1_cao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Animal</label>
+        <link refid="class_b_o_1_1_animal"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" line="20" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Cao.cs" bodystart="21" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_b_o_1_1_animal_1a1875ae17d001fb0593fdc49910b76c5e" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Animal</name></member>
+      <member refid="class_b_o_1_1_animal_1af84ac999b24e869ee3858666fe6c00ed" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Animal</name></member>
+      <member refid="class_b_o_1_1_cao_1aa8d7f3ae7bc521d1bab353ccd8d73a3c" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Cao</name></member>
+      <member refid="class_b_o_1_1_cao_1a89367c44c2b099fb0686face4f5e4012" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Cao</name></member>
+      <member refid="class_b_o_1_1_animal_1abc243c6198cdcbd3d9455251a3195692" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>DataNasc</name></member>
+      <member refid="class_b_o_1_1_animal_1ae7641fd03a9cb79b4489ccbd9831033c" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Genero</name></member>
+      <member refid="class_b_o_1_1_animal_1ad7077e785af88c57d71d818776c1fd9b" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Id</name></member>
+      <member refid="class_b_o_1_1_animal_1a7da4535f737aa0dd84308735f75f64fd" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Nome</name></member>
+      <member refid="class_b_o_1_1_cao_1adbc20a36838e611a3e1cd098fd00f964" prot="private" virt="non-virtual"><scope>BO::Cao</scope><name>personalidade</name></member>
+      <member refid="class_b_o_1_1_cao_1af6c1bbabf12ed85b345abcdf36b6e988" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Personalidade</name></member>
+      <member refid="class_b_o_1_1_cao_1a5fb29c59ec734040fda42099dc339b09" prot="private" virt="non-virtual"><scope>BO::Cao</scope><name>porte</name></member>
+      <member refid="class_b_o_1_1_cao_1a21ad3d5d18672ffae8c8ddadea8fffbf" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Porte</name></member>
+      <member refid="class_b_o_1_1_cao_1a801861ac8cac65001a2abf0763fcde79" prot="private" virt="non-virtual"><scope>BO::Cao</scope><name>raca</name></member>
+      <member refid="class_b_o_1_1_cao_1a9d72321ac05dca3674a71bda25e8d242" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>Raca</name></member>
+      <member refid="class_b_o_1_1_cao_1aa7bad153c9df8270620c59f11923fa90" prot="public" virt="non-virtual"><scope>BO::Cao</scope><name>ToString</name></member>
+      <member refid="class_b_o_1_1_cao_1a77f8e7b21d704d0bbd14c27d0328d92a" prot="private" virt="non-virtual"><scope>BO::Cao</scope><name>~Cao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

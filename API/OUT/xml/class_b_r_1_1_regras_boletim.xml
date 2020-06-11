@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_b_r_1_1_regras_boletim" kind="class" language="C#" prot="public">
+    <compoundname>BR::RegrasBoletim</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_b_r_1_1_regras_boletim_1ae72d50043415ed62428a9a82886df421" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BR.RegrasBoletim.InsereVacina</definition>
+        <argsstring>(Vacina v)</argsstring>
+        <name>InsereVacina</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_vacina" kindref="compound">Vacina</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Insere vacina na lista de vacinas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vacina a inserir</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>adiciona a vacina caso seja true, senao retorna falso</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" line="27" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" bodystart="27" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_boletim_1aae6fd4c58e843e846c3b268bf9e1e438" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BR.RegrasBoletim.ProcuraTodasVacinas</definition>
+        <argsstring>()</argsstring>
+        <name>ProcuraTodasVacinas</name>
+        <briefdescription>
+<para>Procura todas as vacinas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Imprime todas as vacinas na consola</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" line="46" column="30" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_boletim_1ade1d6ded7121d44be01becaef07a65ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BR.RegrasBoletim.InsereBoletim</definition>
+        <argsstring>(BoletimSanitario boletim)</argsstring>
+        <name>InsereBoletim</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_boletim_sanitario" kindref="compound">BoletimSanitario</ref></type>
+          <declname>boletim</declname>
+        </param>
+        <briefdescription>
+<para>Insere boletim na lista de boletins </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boletim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boletim a inserir</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro caso o boletim seja inserido, falso caso já exista</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" line="59" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" bodystart="59" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_boletim_1a91fa3f6f3f84aa78899c9a7482bde09b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BR.RegrasBoletim.InsereTratamentoBoletim</definition>
+        <argsstring>(BoletimSanitario boletim, ArrayList tratamento)</argsstring>
+        <name>InsereTratamentoBoletim</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_boletim_sanitario" kindref="compound">BoletimSanitario</ref></type>
+          <declname>boletim</declname>
+        </param>
+        <param>
+          <type>ArrayList</type>
+          <declname>tratamento</declname>
+        </param>
+        <briefdescription>
+<para>Insere tratamento a um boletim já existente </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boletim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boletim para inserir tratamento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tratamento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tratamento a inserir</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro se o boletim existir, falso se o boletim não existir</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" line="79" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" bodystart="79" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para gerir regras relativas aos boletins e vacinas </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" line="19" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasBoletim.cs" bodystart="20" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_b_r_1_1_regras_boletim_1ade1d6ded7121d44be01becaef07a65ea" prot="public" virt="non-virtual"><scope>BR::RegrasBoletim</scope><name>InsereBoletim</name></member>
+      <member refid="class_b_r_1_1_regras_boletim_1a91fa3f6f3f84aa78899c9a7482bde09b" prot="public" virt="non-virtual"><scope>BR::RegrasBoletim</scope><name>InsereTratamentoBoletim</name></member>
+      <member refid="class_b_r_1_1_regras_boletim_1ae72d50043415ed62428a9a82886df421" prot="public" virt="non-virtual"><scope>BR::RegrasBoletim</scope><name>InsereVacina</name></member>
+      <member refid="class_b_r_1_1_regras_boletim_1aae6fd4c58e843e846c3b268bf9e1e438" prot="public" virt="non-virtual"><scope>BR::RegrasBoletim</scope><name>ProcuraTodasVacinas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

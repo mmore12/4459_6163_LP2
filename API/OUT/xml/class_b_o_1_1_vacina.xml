@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_b_o_1_1_vacina" kind="class" language="C#" prot="public">
+    <compoundname>BO::Vacina</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_o_1_1_vacina_1a3095bd3bd8befb6cea8d6768cff733f6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Vacina.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="23" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_vacina_1ae1a38ac87b960bc2cd05b8c2c3a38ac3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BO.Vacina.tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="24" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_vacina_1aa8af2b233343c8a02b210e9fb4d26e0c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BO.Vacina.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="25" column="13" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_b_o_1_1_vacina_1ab349ede1ba72f9e7e0aa20d025ac190a" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int BO.Vacina.vacinaId</definition>
+        <argsstring></argsstring>
+        <name>vacinaId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="26" column="20" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_b_o_1_1_vacina_1a441e20cbe9bf441581f5aa73a3947382" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Vacina.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <briefdescription>
+<para>Nome da vacina </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="33" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_vacina_1aacbff6ae5fad156d061515f4805c0b4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BO.Vacina.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <briefdescription>
+<para>Tipo de vacina </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="41" column="23" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_vacina_1a6d77eb59a2c928d41b6ffb789cc6f71c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int BO.Vacina.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>Id da vacina </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="49" column="20" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_o_1_1_vacina_1a43e9302a88d3b7e376de1f49b6b082b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.Vacina.Vacina</definition>
+        <argsstring>(string nome, string tipo)</argsstring>
+        <name>Vacina</name>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <briefdescription>
+<para>Criar uma vacina com nome, tipo </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nome da vacina</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tipo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tipo da vacina</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="62" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_1_1_vacina_1a128eb748f89cec0e6e1143d882a6b700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string BO.Vacina.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Imprime a vacina na consola </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>retorna a vacina imprimida</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="76" column="32" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="76" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Classe para gerir uma vacina </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" line="20" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/Vacina.cs" bodystart="21" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_b_o_1_1_vacina_1aa8af2b233343c8a02b210e9fb4d26e0c" prot="private" virt="non-virtual"><scope>BO::Vacina</scope><name>id</name></member>
+      <member refid="class_b_o_1_1_vacina_1a6d77eb59a2c928d41b6ffb789cc6f71c" prot="public" virt="non-virtual"><scope>BO::Vacina</scope><name>Id</name></member>
+      <member refid="class_b_o_1_1_vacina_1a441e20cbe9bf441581f5aa73a3947382" prot="public" virt="non-virtual"><scope>BO::Vacina</scope><name>Nome</name></member>
+      <member refid="class_b_o_1_1_vacina_1a3095bd3bd8befb6cea8d6768cff733f6" prot="private" virt="non-virtual"><scope>BO::Vacina</scope><name>nome</name></member>
+      <member refid="class_b_o_1_1_vacina_1ae1a38ac87b960bc2cd05b8c2c3a38ac3" prot="private" virt="non-virtual"><scope>BO::Vacina</scope><name>tipo</name></member>
+      <member refid="class_b_o_1_1_vacina_1aacbff6ae5fad156d061515f4805c0b4f" prot="public" virt="non-virtual"><scope>BO::Vacina</scope><name>Tipo</name></member>
+      <member refid="class_b_o_1_1_vacina_1a128eb748f89cec0e6e1143d882a6b700" prot="public" virt="non-virtual"><scope>BO::Vacina</scope><name>ToString</name></member>
+      <member refid="class_b_o_1_1_vacina_1a43e9302a88d3b7e376de1f49b6b082b6" prot="public" virt="non-virtual"><scope>BO::Vacina</scope><name>Vacina</name></member>
+      <member refid="class_b_o_1_1_vacina_1ab349ede1ba72f9e7e0aa20d025ac190a" prot="private" virt="non-virtual"><scope>BO::Vacina</scope><name>vacinaId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

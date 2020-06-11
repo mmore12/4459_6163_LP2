@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_b_r_1_1_regras_cao" kind="class" language="C#" prot="public">
+    <compoundname>BR::RegrasCao</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_b_r_1_1_regras_cao_1aa7afe008e85a60a2b67c9e9104a4d073" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BR.RegrasCao.InsereCao</definition>
+        <argsstring>(Cao c)</argsstring>
+        <name>InsereCao</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_cao" kindref="compound">Cao</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Regra negocio para inserir um cao </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cão a inserir</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>adiciona o cao e retorna verdadeiro, caso contrario retorna falso</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" line="29" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_cao_1a9269e4803df78de028aecf3b56414cde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BR.RegrasCao.ProcuraCao</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ProcuraCao</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Procura um cao pelo ID </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID do cão</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna o cão, caso o encontre, se nao encontrar gera uma excecao</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" line="39" column="30" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" bodystart="39" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_cao_1aa83d23accbe3494f94364dabefa9200d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BR.RegrasCao.RegistarCao</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>RegistarCao</name>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Regista o cao num ficheiro binario </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caminho do ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro se o ficheiro existe, falso se nao existir</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" line="62" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" bodystart="62" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_cao_1a47d811695628879bf0448ccb9edf0b6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool BR.RegrasCao.MostrarCao</definition>
+        <argsstring>(string nomeFicheiro)</argsstring>
+        <name>MostrarCao</name>
+        <param>
+          <type>string</type>
+          <declname>nomeFicheiro</declname>
+        </param>
+        <briefdescription>
+<para>Le do ficheiro binario os caes presentes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nomeFicheiro</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>caminho do ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro se o ficheiro existe, falso se nao existir</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" line="88" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" bodystart="88" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_r_1_1_regras_cao_1ab193a6567cfa05834f83adec4d539609" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BR.RegrasCao.ShowCaes</definition>
+        <argsstring>()</argsstring>
+        <name>ShowCaes</name>
+        <briefdescription>
+<para>Mostra os caes na consola </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string com todos os caes na lista</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" line="108" column="30" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Regras negocio para gerir o parque </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" line="21" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/RegrasCao.cs" bodystart="22" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_b_r_1_1_regras_cao_1aa7afe008e85a60a2b67c9e9104a4d073" prot="public" virt="non-virtual"><scope>BR::RegrasCao</scope><name>InsereCao</name></member>
+      <member refid="class_b_r_1_1_regras_cao_1a47d811695628879bf0448ccb9edf0b6b" prot="public" virt="non-virtual"><scope>BR::RegrasCao</scope><name>MostrarCao</name></member>
+      <member refid="class_b_r_1_1_regras_cao_1a9269e4803df78de028aecf3b56414cde" prot="public" virt="non-virtual"><scope>BR::RegrasCao</scope><name>ProcuraCao</name></member>
+      <member refid="class_b_r_1_1_regras_cao_1aa83d23accbe3494f94364dabefa9200d" prot="public" virt="non-virtual"><scope>BR::RegrasCao</scope><name>RegistarCao</name></member>
+      <member refid="class_b_r_1_1_regras_cao_1ab193a6567cfa05834f83adec4d539609" prot="public" virt="non-virtual"><scope>BR::RegrasCao</scope><name>ShowCaes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

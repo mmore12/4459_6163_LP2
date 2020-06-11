@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_1dcf584819659af220a80913cb58dbb8" kind="dir">
+    <compoundname>C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL</compoundname>
+    <innerdir refid="dir_336fe389026a4f6297cb09bac0e78ec3">C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/Ficheiros</innerdir>
+    <innerdir refid="dir_9043a02e1292cb476e18cf914e3fb3cc">C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/Properties</innerdir>
+    <innerfile refid="_dados_boletim_8cs">DadosBoletim.cs</innerfile>
+    <innerfile refid="_dados_cao_8cs">DadosCao.cs</innerfile>
+    <innerfile refid="_dados_pessoa_8cs">DadosPessoa.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/"/>
+  </compounddef>
+</doxygen>

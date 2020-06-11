@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_excecoes_1_1_excecao" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::Excecao</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationException</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_excecao_1a7ce33d84d5c73a776d91ad2b5db9c764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.Excecao.Excecao</definition>
+        <argsstring>()</argsstring>
+        <name>Excecao</name>
+        <briefdescription>
+<para>Construtor by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" line="21" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_excecao_1a1296510e4e3cab7b93615b0af1f64db1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.Excecao.Excecao</definition>
+        <argsstring>(string e)</argsstring>
+        <name>Excecao</name>
+        <param>
+          <type>string</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Construtor que recebe uma string </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" line="29" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_excecoes_1_1_excecao_1a4c2de043f3d2a2cfcdcbf10d3fb78dbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.Excecao.Excecao</definition>
+        <argsstring>(string s, Exception e)</argsstring>
+        <name>Excecao</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Construtor que recebe uma string e uma exception </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" line="37" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para gerir excecoes </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>Excecoes.Excecao</label>
+        <link refid="class_excecoes_1_1_excecao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>Excecoes.Excecao</label>
+        <link refid="class_excecoes_1_1_excecao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" line="16" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/Excecoes/Excecao.cs" bodystart="17" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_excecao_1a7ce33d84d5c73a776d91ad2b5db9c764" prot="public" virt="non-virtual"><scope>Excecoes::Excecao</scope><name>Excecao</name></member>
+      <member refid="class_excecoes_1_1_excecao_1a1296510e4e3cab7b93615b0af1f64db1" prot="public" virt="non-virtual"><scope>Excecoes::Excecao</scope><name>Excecao</name></member>
+      <member refid="class_excecoes_1_1_excecao_1a4c2de043f3d2a2cfcdcbf10d3fb78dbf" prot="public" virt="non-virtual"><scope>Excecoes::Excecao</scope><name>Excecao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

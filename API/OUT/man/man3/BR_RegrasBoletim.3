@@ -1,0 +1,101 @@
+.TH "BR.RegrasBoletim" 3 "Mon Jun 8 2020" "PetLovers" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BR.RegrasBoletim \- Classe para gerir regras relativas aos boletins e vacinas  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBInsereVacina\fP (\fBVacina\fP v)"
+.br
+.RI "Insere vacina na lista de vacinas "
+.ti -1c
+.RI "static string \fBProcuraTodasVacinas\fP ()"
+.br
+.RI "Procura todas as vacinas "
+.ti -1c
+.RI "static bool \fBInsereBoletim\fP (\fBBoletimSanitario\fP boletim)"
+.br
+.RI "Insere boletim na lista de boletins "
+.ti -1c
+.RI "static bool \fBInsereTratamentoBoletim\fP (\fBBoletimSanitario\fP boletim, ArrayList tratamento)"
+.br
+.RI "Insere tratamento a um boletim já existente "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe para gerir regras relativas aos boletins e vacinas 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static bool BR\&.RegrasBoletim\&.InsereBoletim (\fBBoletimSanitario\fP boletim)\fC [static]\fP"
+
+.PP
+Insere boletim na lista de boletins 
+.PP
+\fBParameters\fP
+.RS 4
+\fIboletim\fP boletim a inserir
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+verdadeiro caso o boletim seja inserido, falso caso já exista
+.RE
+.PP
+
+.SS "static bool BR\&.RegrasBoletim\&.InsereTratamentoBoletim (\fBBoletimSanitario\fP boletim, ArrayList tratamento)\fC [static]\fP"
+
+.PP
+Insere tratamento a um boletim já existente 
+.PP
+\fBParameters\fP
+.RS 4
+\fIboletim\fP boletim para inserir tratamento
+.br
+\fItratamento\fP tratamento a inserir
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+verdadeiro se o boletim existir, falso se o boletim não existir
+.RE
+.PP
+
+.SS "static bool BR\&.RegrasBoletim\&.InsereVacina (\fBVacina\fP v)\fC [static]\fP"
+
+.PP
+Insere vacina na lista de vacinas 
+.PP
+\fBParameters\fP
+.RS 4
+\fIv\fP vacina a inserir
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+adiciona a vacina caso seja true, senao retorna falso
+.RE
+.PP
+
+.SS "static string BR\&.RegrasBoletim\&.ProcuraTodasVacinas ()\fC [static]\fP"
+
+.PP
+Procura todas as vacinas 
+.PP
+\fBReturns\fP
+.RS 4
+Imprime todas as vacinas na consola
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for PetLovers from the source code\&.

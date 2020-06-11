@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_d_a_l" kind="namespace" language="C#">
+    <compoundname>DAL</compoundname>
+    <innerclass refid="class_d_a_l_1_1_dados_boletim" prot="public">DAL::DadosBoletim</innerclass>
+    <innerclass refid="class_d_a_l_1_1_dados_cao" prot="public">DAL::DadosCao</innerclass>
+    <innerclass refid="class_d_a_l_1_1_dados_pessoa" prot="public">DAL::DadosPessoa</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

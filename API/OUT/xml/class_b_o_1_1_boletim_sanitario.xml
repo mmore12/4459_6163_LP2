@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_b_o_1_1_boletim_sanitario" kind="class" language="C#" prot="public">
+    <compoundname>BO::BoletimSanitario</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_o_1_1_boletim_sanitario_1a7c60fe320dda075d299ee5a1d2759359" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime BO.BoletimSanitario.dataCriacao</definition>
+        <argsstring></argsstring>
+        <name>dataCriacao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="20" column="18" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_boletim_sanitario_1a3814a79a035b5e92e1d5984f649cd95f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BO.BoletimSanitario.idAnimal</definition>
+        <argsstring></argsstring>
+        <name>idAnimal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="21" column="13" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_1_1_boletim_sanitario_1a461c678ca8186916409833bd716ea52d" prot="private" static="no" mutable="no">
+        <type>ArrayList</type>
+        <definition>ArrayList BO.BoletimSanitario.tratamentos</definition>
+        <argsstring></argsstring>
+        <name>tratamentos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="23" column="19" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_b_o_1_1_boletim_sanitario_1a69910db55229ec7c702598755b2c41b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime BO.BoletimSanitario.DataCriacao</definition>
+        <argsstring></argsstring>
+        <name>DataCriacao</name>
+        <briefdescription>
+<para>Propertie para verificar data da criaçao do boletim </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="51" column="25" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_boletim_sanitario_1a74c15c0da05d62caa0c1132ada93fa8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int BO.BoletimSanitario.IdAnimal</definition>
+        <argsstring></argsstring>
+        <name>IdAnimal</name>
+        <briefdescription>
+<para>Manipular ID do animal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="59" column="20" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_1_1_boletim_sanitario_1acc010a0be70a1e39971b1c42afd1b19e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ArrayList</type>
+        <definition>ArrayList BO.BoletimSanitario.Tratamentos</definition>
+        <argsstring></argsstring>
+        <name>Tratamentos</name>
+        <briefdescription>
+<para>Manipular os tratamentos </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="67" column="26" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_o_1_1_boletim_sanitario_1a425e6a60f1913a4edabef7632e99d48d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.BoletimSanitario.BoletimSanitario</definition>
+        <argsstring>()</argsstring>
+        <name>BoletimSanitario</name>
+        <briefdescription>
+<para>The default Constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="30" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_1_1_boletim_sanitario_1a35c257beaea0283e788bda07f1bd1478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.BoletimSanitario.BoletimSanitario</definition>
+        <argsstring>(Cao cao)</argsstring>
+        <name>BoletimSanitario</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_cao" kindref="compound">Cao</ref></type>
+          <declname>cao</declname>
+        </param>
+        <briefdescription>
+<para>Construtor para criar um boletim associado a um cao </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cão associado ao boletim</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="38" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_b_o_1_1_boletim_sanitario_1a2a469a431b4e080be7a00afba597ebf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BO.BoletimSanitario.~BoletimSanitario</definition>
+        <argsstring>()</argsstring>
+        <name>~BoletimSanitario</name>
+        <briefdescription>
+<para>The destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="79" column="9" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="79" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para gerir um boletim sanitario </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" line="17" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BO/BoletimSanitario.cs" bodystart="18" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a425e6a60f1913a4edabef7632e99d48d" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>BoletimSanitario</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a35c257beaea0283e788bda07f1bd1478" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>BoletimSanitario</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a69910db55229ec7c702598755b2c41b4" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>DataCriacao</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a7c60fe320dda075d299ee5a1d2759359" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>dataCriacao</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a3814a79a035b5e92e1d5984f649cd95f" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>idAnimal</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a74c15c0da05d62caa0c1132ada93fa8e" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>IdAnimal</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1acc010a0be70a1e39971b1c42afd1b19e" prot="public" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>Tratamentos</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a461c678ca8186916409833bd716ea52d" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>tratamentos</name></member>
+      <member refid="class_b_o_1_1_boletim_sanitario_1a2a469a431b4e080be7a00afba597ebf1" prot="private" virt="non-virtual"><scope>BO::BoletimSanitario</scope><name>~BoletimSanitario</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

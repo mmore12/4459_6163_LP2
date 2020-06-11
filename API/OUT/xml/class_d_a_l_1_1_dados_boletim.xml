@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_d_a_l_1_1_dados_boletim" kind="class" language="C#" prot="public">
+    <compoundname>DAL::DadosBoletim</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_d_a_l_1_1_dados_boletim_1aa92f8154a74e198c184a6b60abff3d72" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_b_o_1_1_boletim_sanitario" kindref="compound">BoletimSanitario</ref> &gt;</type>
+        <definition>List&lt;BoletimSanitario&gt; DAL.DadosBoletim.boletins</definition>
+        <argsstring></argsstring>
+        <name>boletins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="22" column="29" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_a_l_1_1_dados_boletim_1a15fb757d57809d78255cf608afb7859d" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_b_o_1_1_vacina" kindref="compound">Vacina</ref> &gt;</type>
+        <definition>List&lt;Vacina&gt; DAL.DadosBoletim.vacinas</definition>
+        <argsstring></argsstring>
+        <name>vacinas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="23" column="29" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_boletim_1a400a6c93a5d2ba2450ed0439d244f427" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static DAL.DadosBoletim.DadosBoletim</definition>
+        <argsstring>()</argsstring>
+        <name>DadosBoletim</name>
+        <briefdescription>
+<para>iniciar as listas </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="28" column="16" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="28" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_boletim_1a11a68c4a5d5fc1c9c4e8be62cf881804" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosBoletim.AddVacina</definition>
+        <argsstring>(Vacina vacina)</argsstring>
+        <name>AddVacina</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_vacina" kindref="compound">Vacina</ref></type>
+          <declname>vacina</declname>
+        </param>
+        <briefdescription>
+<para>Adicionar uma vacina </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vacina</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vacina a adicionar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna true se a vacina for inserida, caso contrario, falso</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="46" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="46" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_boletim_1a354df2639d5c2125e72bdc866f2624c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DAL.DadosBoletim.GetAllVacinas</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllVacinas</name>
+        <briefdescription>
+<para>Mostra todas as vacinas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Imprime na consola todas as vacinas presentes na lista</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="64" column="30" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="64" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_boletim_1a46983169c053158fd6a4923a69cc0709" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosBoletim.AddBoletim</definition>
+        <argsstring>(BoletimSanitario bol)</argsstring>
+        <name>AddBoletim</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_boletim_sanitario" kindref="compound">BoletimSanitario</ref></type>
+          <declname>bol</declname>
+        </param>
+        <briefdescription>
+<para>Adicionar um boletim sanitario </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boletim a adicionar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna true se o boletim for inserido, caso contrario, retorna false</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="83" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="83" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_a_l_1_1_dados_boletim_1a3680b5a91cadbcb9d25143d4c84385f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DAL.DadosBoletim.AddTratamentoBoletim</definition>
+        <argsstring>(BoletimSanitario boletim, ArrayList tratamento)</argsstring>
+        <name>AddTratamentoBoletim</name>
+        <param>
+          <type><ref refid="class_b_o_1_1_boletim_sanitario" kindref="compound">BoletimSanitario</ref></type>
+          <declname>boletim</declname>
+        </param>
+        <param>
+          <type>ArrayList</type>
+          <declname>tratamento</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona tratamentos a um boletim </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>boletim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boletim para adicionar os tratamentos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tratamento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tratamentos a inserir</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>verdadeiro caso o boletim exista, caso contrario falso</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="102" column="28" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="102" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe para gerir dados do boletim sanitario e vacinas </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" line="19" column="11" bodyfile="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/DAL/DadosBoletim.cs" bodystart="20" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_d_a_l_1_1_dados_boletim_1a46983169c053158fd6a4923a69cc0709" prot="public" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>AddBoletim</name></member>
+      <member refid="class_d_a_l_1_1_dados_boletim_1a3680b5a91cadbcb9d25143d4c84385f3" prot="public" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>AddTratamentoBoletim</name></member>
+      <member refid="class_d_a_l_1_1_dados_boletim_1a11a68c4a5d5fc1c9c4e8be62cf881804" prot="public" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>AddVacina</name></member>
+      <member refid="class_d_a_l_1_1_dados_boletim_1aa92f8154a74e198c184a6b60abff3d72" prot="private" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>boletins</name></member>
+      <member refid="class_d_a_l_1_1_dados_boletim_1a400a6c93a5d2ba2450ed0439d244f427" prot="private" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>DadosBoletim</name></member>
+      <member refid="class_d_a_l_1_1_dados_boletim_1a354df2639d5c2125e72bdc866f2624c7" prot="public" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>GetAllVacinas</name></member>
+      <member refid="class_d_a_l_1_1_dados_boletim_1a15fb757d57809d78255cf608afb7859d" prot="private" virt="non-virtual"><scope>DAL::DadosBoletim</scope><name>vacinas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

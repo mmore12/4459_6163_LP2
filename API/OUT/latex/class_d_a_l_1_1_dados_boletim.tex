@@ -1,0 +1,100 @@
+\hypertarget{class_d_a_l_1_1_dados_boletim}{}\doxysection{D\+A\+L.\+Dados\+Boletim Class Reference}
+\label{class_d_a_l_1_1_dados_boletim}\index{DAL.DadosBoletim@{DAL.DadosBoletim}}
+
+
+Classe para gerir dados do boletim sanitario e vacinas  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_d_a_l_1_1_dados_boletim_a11a68c4a5d5fc1c9c4e8be62cf881804}{Add\+Vacina}} (\mbox{\hyperlink{class_b_o_1_1_vacina}{Vacina}} vacina)
+\begin{DoxyCompactList}\small\item\em Adicionar uma vacina \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_d_a_l_1_1_dados_boletim_a354df2639d5c2125e72bdc866f2624c7}{Get\+All\+Vacinas}} ()
+\begin{DoxyCompactList}\small\item\em Mostra todas as vacinas \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_d_a_l_1_1_dados_boletim_a46983169c053158fd6a4923a69cc0709}{Add\+Boletim}} (\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}} bol)
+\begin{DoxyCompactList}\small\item\em Adicionar um boletim sanitario \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_d_a_l_1_1_dados_boletim_a3680b5a91cadbcb9d25143d4c84385f3}{Add\+Tratamento\+Boletim}} (\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}} boletim, Array\+List tratamento)
+\begin{DoxyCompactList}\small\item\em Adiciona tratamentos a um boletim \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe para gerir dados do boletim sanitario e vacinas 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d_a_l_1_1_dados_boletim_a46983169c053158fd6a4923a69cc0709}\label{class_d_a_l_1_1_dados_boletim_a46983169c053158fd6a4923a69cc0709}} 
+\index{DAL.DadosBoletim@{DAL.DadosBoletim}!AddBoletim@{AddBoletim}}
+\index{AddBoletim@{AddBoletim}!DAL.DadosBoletim@{DAL.DadosBoletim}}
+\doxysubsubsection{\texorpdfstring{AddBoletim()}{AddBoletim()}}
+{\footnotesize\ttfamily static bool D\+A\+L.\+Dados\+Boletim.\+Add\+Boletim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}}}]{bol }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adicionar um boletim sanitario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bol} & boletim a adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna true se o boletim for inserido, caso contrario, retorna false
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_d_a_l_1_1_dados_boletim_a3680b5a91cadbcb9d25143d4c84385f3}\label{class_d_a_l_1_1_dados_boletim_a3680b5a91cadbcb9d25143d4c84385f3}} 
+\index{DAL.DadosBoletim@{DAL.DadosBoletim}!AddTratamentoBoletim@{AddTratamentoBoletim}}
+\index{AddTratamentoBoletim@{AddTratamentoBoletim}!DAL.DadosBoletim@{DAL.DadosBoletim}}
+\doxysubsubsection{\texorpdfstring{AddTratamentoBoletim()}{AddTratamentoBoletim()}}
+{\footnotesize\ttfamily static bool D\+A\+L.\+Dados\+Boletim.\+Add\+Tratamento\+Boletim (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_boletim_sanitario}{Boletim\+Sanitario}}}]{boletim,  }\item[{Array\+List}]{tratamento }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adiciona tratamentos a um boletim 
+
+
+\begin{DoxyParams}{Parameters}
+{\em boletim} & boletim para adicionar os tratamentos\\
+\hline
+{\em tratamento} & tratamentos a inserir\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+verdadeiro caso o boletim exista, caso contrario falso
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_d_a_l_1_1_dados_boletim_a11a68c4a5d5fc1c9c4e8be62cf881804}\label{class_d_a_l_1_1_dados_boletim_a11a68c4a5d5fc1c9c4e8be62cf881804}} 
+\index{DAL.DadosBoletim@{DAL.DadosBoletim}!AddVacina@{AddVacina}}
+\index{AddVacina@{AddVacina}!DAL.DadosBoletim@{DAL.DadosBoletim}}
+\doxysubsubsection{\texorpdfstring{AddVacina()}{AddVacina()}}
+{\footnotesize\ttfamily static bool D\+A\+L.\+Dados\+Boletim.\+Add\+Vacina (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_vacina}{Vacina}}}]{vacina }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Adicionar uma vacina 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vacina} & Vacina a adicionar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna true se a vacina for inserida, caso contrario, falso
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_d_a_l_1_1_dados_boletim_a354df2639d5c2125e72bdc866f2624c7}\label{class_d_a_l_1_1_dados_boletim_a354df2639d5c2125e72bdc866f2624c7}} 
+\index{DAL.DadosBoletim@{DAL.DadosBoletim}!GetAllVacinas@{GetAllVacinas}}
+\index{GetAllVacinas@{GetAllVacinas}!DAL.DadosBoletim@{DAL.DadosBoletim}}
+\doxysubsubsection{\texorpdfstring{GetAllVacinas()}{GetAllVacinas()}}
+{\footnotesize\ttfamily static string D\+A\+L.\+Dados\+Boletim.\+Get\+All\+Vacinas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Mostra todas as vacinas 
+
+\begin{DoxyReturn}{Returns}
+Imprime na consola todas as vacinas presentes na lista
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+C\+A\+R\+O\+N\+E\+S\+E/\+Documents/\+I\+P\+C\+A/1.\+2/\+L\+P2/\+Git\+Hub/\+T\+P2\+\_\+/\+T\+P\+\_\+\+L\+P2\+\_\+4459\+\_\+6163/\+D\+A\+L/\mbox{\hyperlink{_dados_boletim_8cs}{Dados\+Boletim.\+cs}}\end{DoxyCompactItemize}

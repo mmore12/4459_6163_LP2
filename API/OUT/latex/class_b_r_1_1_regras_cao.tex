@@ -1,0 +1,118 @@
+\hypertarget{class_b_r_1_1_regras_cao}{}\doxysection{B\+R.\+Regras\+Cao Class Reference}
+\label{class_b_r_1_1_regras_cao}\index{BR.RegrasCao@{BR.RegrasCao}}
+
+
+Regras negocio para gerir o parque  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_b_r_1_1_regras_cao_aa7afe008e85a60a2b67c9e9104a4d073}{Insere\+Cao}} (\mbox{\hyperlink{class_b_o_1_1_cao}{Cao}} c)
+\begin{DoxyCompactList}\small\item\em Regra negocio para inserir um cao \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_b_r_1_1_regras_cao_a9269e4803df78de028aecf3b56414cde}{Procura\+Cao}} (int id)
+\begin{DoxyCompactList}\small\item\em Procura um cao pelo ID \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_b_r_1_1_regras_cao_aa83d23accbe3494f94364dabefa9200d}{Registar\+Cao}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Regista o cao num ficheiro binario \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_b_r_1_1_regras_cao_a47d811695628879bf0448ccb9edf0b6b}{Mostrar\+Cao}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Le do ficheiro binario os caes presentes \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_b_r_1_1_regras_cao_ab193a6567cfa05834f83adec4d539609}{Show\+Caes}} ()
+\begin{DoxyCompactList}\small\item\em Mostra os caes na consola \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Regras negocio para gerir o parque 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_b_r_1_1_regras_cao_aa7afe008e85a60a2b67c9e9104a4d073}\label{class_b_r_1_1_regras_cao_aa7afe008e85a60a2b67c9e9104a4d073}} 
+\index{BR.RegrasCao@{BR.RegrasCao}!InsereCao@{InsereCao}}
+\index{InsereCao@{InsereCao}!BR.RegrasCao@{BR.RegrasCao}}
+\doxysubsubsection{\texorpdfstring{InsereCao()}{InsereCao()}}
+{\footnotesize\ttfamily static bool B\+R.\+Regras\+Cao.\+Insere\+Cao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_b_o_1_1_cao}{Cao}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Regra negocio para inserir um cao 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & cão a inserir\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+adiciona o cao e retorna verdadeiro, caso contrario retorna falso
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_cao_a47d811695628879bf0448ccb9edf0b6b}\label{class_b_r_1_1_regras_cao_a47d811695628879bf0448ccb9edf0b6b}} 
+\index{BR.RegrasCao@{BR.RegrasCao}!MostrarCao@{MostrarCao}}
+\index{MostrarCao@{MostrarCao}!BR.RegrasCao@{BR.RegrasCao}}
+\doxysubsubsection{\texorpdfstring{MostrarCao()}{MostrarCao()}}
+{\footnotesize\ttfamily static bool B\+R.\+Regras\+Cao.\+Mostrar\+Cao (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Le do ficheiro binario os caes presentes 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & caminho do ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+verdadeiro se o ficheiro existe, falso se nao existir
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_cao_a9269e4803df78de028aecf3b56414cde}\label{class_b_r_1_1_regras_cao_a9269e4803df78de028aecf3b56414cde}} 
+\index{BR.RegrasCao@{BR.RegrasCao}!ProcuraCao@{ProcuraCao}}
+\index{ProcuraCao@{ProcuraCao}!BR.RegrasCao@{BR.RegrasCao}}
+\doxysubsubsection{\texorpdfstring{ProcuraCao()}{ProcuraCao()}}
+{\footnotesize\ttfamily static string B\+R.\+Regras\+Cao.\+Procura\+Cao (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Procura um cao pelo ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID do cão\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna o cão, caso o encontre, se nao encontrar gera uma excecao
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_cao_aa83d23accbe3494f94364dabefa9200d}\label{class_b_r_1_1_regras_cao_aa83d23accbe3494f94364dabefa9200d}} 
+\index{BR.RegrasCao@{BR.RegrasCao}!RegistarCao@{RegistarCao}}
+\index{RegistarCao@{RegistarCao}!BR.RegrasCao@{BR.RegrasCao}}
+\doxysubsubsection{\texorpdfstring{RegistarCao()}{RegistarCao()}}
+{\footnotesize\ttfamily static bool B\+R.\+Regras\+Cao.\+Registar\+Cao (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Regista o cao num ficheiro binario 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & caminho do ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+verdadeiro se o ficheiro existe, falso se nao existir
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_b_r_1_1_regras_cao_ab193a6567cfa05834f83adec4d539609}\label{class_b_r_1_1_regras_cao_ab193a6567cfa05834f83adec4d539609}} 
+\index{BR.RegrasCao@{BR.RegrasCao}!ShowCaes@{ShowCaes}}
+\index{ShowCaes@{ShowCaes}!BR.RegrasCao@{BR.RegrasCao}}
+\doxysubsubsection{\texorpdfstring{ShowCaes()}{ShowCaes()}}
+{\footnotesize\ttfamily static string B\+R.\+Regras\+Cao.\+Show\+Caes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Mostra os caes na consola 
+
+\begin{DoxyReturn}{Returns}
+string com todos os caes na lista
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+C\+A\+R\+O\+N\+E\+S\+E/\+Documents/\+I\+P\+C\+A/1.\+2/\+L\+P2/\+Git\+Hub/\+T\+P2\+\_\+/\+T\+P\+\_\+\+L\+P2\+\_\+4459\+\_\+6163/\+B\+R/\mbox{\hyperlink{_regras_cao_8cs}{Regras\+Cao.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_39191372e03eebcc6ed19de7b322da8a" kind="dir">
+    <compoundname>C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR</compoundname>
+    <innerdir refid="dir_a2cf1087902495e92eedcd77e556cd47">C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/Properties</innerdir>
+    <innerfile refid="_regras_boletim_8cs">RegrasBoletim.cs</innerfile>
+    <innerfile refid="_regras_cao_8cs">RegrasCao.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/CARONESE/Documents/IPCA/1.2/LP2/GitHub/TP2_/TP_LP2_4459_6163/BR/"/>
+  </compounddef>
+</doxygen>
