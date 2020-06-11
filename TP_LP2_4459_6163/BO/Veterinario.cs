@@ -73,15 +73,6 @@ namespace BO
         #region Overrides
         #endregion
 
-        #region Destructor
-        /// <summary>
-        /// The destructor.
-        /// </summary>
-        ~Veterinario()
-        {
-        }
-        #endregion
-
         #endregion
     }
 }

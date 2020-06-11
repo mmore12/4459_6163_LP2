@@ -72,14 +72,5 @@ namespace BO
 
         #endregion
 
-        #region Destructor
-        /// <summary>
-        /// The destructor.
-        /// </summary>
-        ~BoletimSanitario()
-        {
-        }
-        #endregion
-
     }
 }

@@ -87,14 +87,5 @@ namespace BO
         }
         #endregion
 
-        #region Destructor
-        /// <summary>
-        /// The destructor.
-        /// </summary>
-        ~Cao()
-        {
-        }
-        #endregion
-
     }
 }
